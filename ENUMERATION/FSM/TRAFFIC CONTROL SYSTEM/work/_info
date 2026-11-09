@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/ENUMERATION/FSM/TRAFFIC CONTROL SYSTEM
+T_opt
+!s110 1763548072
+Voj=Dn48o0bd363`fE2[9O3
+04 3 4 work top fast 0
+=1-84144d0ea3d5-691d9ba7-359-2484
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdut
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1763548069
+!i10b 1
+!s100 oTI[IYV?P^cZW0B?YjnaI0
+IL^XSETmGO^cKaFmSDdD1N2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 top_sv_unit
+S1
+R0
+w1763548063
+8dut.sv
+Fdut.sv
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1763548069.000000
+Z8 !s107 tb.sv|dut.sv|TCS.sv|top.sv|
+Z9 !s90 -reportprogress|300|top.sv|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yinter
+R2
+R3
+!i10b 1
+!s100 D@5`a:@:P0@WMPDoeYVNT1
+IKLRV3BmGjNb7Wo0O18Y[a3
+R4
+R5
+S1
+R0
+w1763545076
+8TCS.sv
+FTCS.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+4tb
+R2
+R3
+!i10b 1
+!s100 BbN[aVW_8liM8WR[?WJ`E1
+ImC7oOhlfWPGKE?EnXe5WT3
+R4
+R5
+S1
+R0
+w1763547794
+8tb.sv
+Ftb.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vtop
+R2
+R3
+!i10b 1
+!s100 Cb@9hJZZ=7ROVXX`FJgE63
+I`iW>>QADld>k2kZkO_aG=1
+R4
+R5
+S1
+R0
+w1763545502
+8top.sv
+Ftop.sv
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

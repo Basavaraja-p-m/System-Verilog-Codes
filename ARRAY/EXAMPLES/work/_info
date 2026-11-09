@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/ARRAY/EXAMPLES
+T_opt
+!s110 1781682394
+ViAb_>M7`3ck5DG2^HI>f]3
+Z1 04 4 4 work exp1 fast 0
+=1-84144d0ea3d5-6a3250da-7e-2de0
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1781682454
+Vg`2ZPE_7I8:UnE0kcZODJ2
+R1
+=1-84144d0ea3d5-6a325116-1da-480
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1781684137
+VmIR^MbgV>j86=Ul_>^fQC2
+R1
+=1-84144d0ea3d5-6a3257a9-52-2780
+R2
+R3
+n@_opt2
+R4
+vexp1
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1781684134
+!i10b 1
+!s100 ^6<JFlM7A:@Dm6l`1iH;M0
+Icl58lz`g2RcCPS[7dlQ_I0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 exp1_sv_unit
+S1
+R0
+w1781684132
+8exp1.sv
+Fexp1.sv
+L0 79
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1781684134.000000
+!s107 exp1.sv|
+!s90 exp1.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3

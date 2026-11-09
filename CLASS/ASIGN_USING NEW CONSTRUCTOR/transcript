@@ -1,0 +1,128 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:39 on Dec 13,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at generator.sv(10): (vlog-2400) Identifier ('transac') found where a type or type identifier is required.
+# End time: 17:04:39 on Dec 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv "
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:05:44 on Dec 13,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at driver.sv(16): near "endclass": syntax error, unexpected endclass.
+# ** Error: top.sv(6): Illegal use of 'automatic' for variable declaration (d1).
+# ** Error: top.sv(7): Illegal use of 'automatic' for variable declaration (g1).
+# ** Error: top.sv(8): Illegal use of 'automatic' for variable declaration (t3).
+# ** Error: top.sv(10): Illegal declaration after the statement near line '5'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: top.sv(13): (vlog-2730) Undefined variable: 'g1'.
+# ** Error (suppressible): top.sv(13): (vlog-2388) 'g1' already declared in this scope (work).
+# top.sv(13): Verilog Compiler exiting
+# End time: 17:05:44 on Dec 13,2025, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv "
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:07:53 on Dec 13,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:07:53 on Dec 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:07:54 on Dec 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from generator class
+# a= 100 b= -49 sum=   0 carry=   0
+# name=from driver class
+# a= 100 b= -49 sum=   0 carry=   0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:12:39 on Dec 13,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:12:39 on Dec 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:12:42 on Dec 13,2025, Elapsed time: 0:04:48
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:12:42 on Dec 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:14:04 on Dec 13,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:14:04 on Dec 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:14:05 on Dec 13,2025, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:14:05 on Dec 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from generator class
+# a= 100 b= -49 sum=   0 carry=   0
+# name=from generator class
+# a= -11 b=  33 sum=   0 carry=   0
+# name=from generator class
+# a= -36 b= -37 sum=   0 carry=   0
+# name=from generator class
+# a= -49 b=  25 sum=   0 carry=   0
+# name=from generator class
+# a=  35 b=  98 sum=   0 carry=   0
+# name=from driver class
+# a=  35 b=  98 sum=   0 carry=   0
+# name=from driver class
+# a=  35 b=  98 sum=   0 carry=   0
+# name=from driver class
+# a=  35 b=  98 sum=   0 carry=   0
+# name=from driver class
+# a=  35 b=  98 sum=   0 carry=   0
+# name=from driver class
+# a=  35 b=  98 sum=   0 carry=   0
+# End time: 17:17:13 on Dec 13,2025, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 0

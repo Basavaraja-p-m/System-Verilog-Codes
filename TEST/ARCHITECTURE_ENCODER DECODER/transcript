@@ -1,0 +1,913 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:49:17 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut1.sv(8): (vlog-2110) Illegal reference to net "y".
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut1.sv(10): (vlog-2110) Illegal reference to net "y".
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut1.sv(12): (vlog-2110) Illegal reference to net "y".
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut1.sv(14): (vlog-2110) Illegal reference to net "y".
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut1.sv(16): (vlog-2110) Illegal reference to net "y".
+# -- Compiling module dut2
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at dut2.sv(8): (vlog-2110) Illegal reference to net "z".
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at dut2.sv(10): (vlog-2110) Illegal reference to net "z".
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at dut2.sv(12): (vlog-2110) Illegal reference to net "z".
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at dut2.sv(14): (vlog-2110) Illegal reference to net "z".
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at dut2.sv(16): (vlog-2110) Illegal reference to net "z".
+# -- Compiling program tb
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(4)
+# ** at tb.sv(18): near "else": syntax error, unexpected else.
+# -- Compiling module top
+# End time: 12:49:17 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:50:28 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(4)
+# ** at tb.sv(18): near "else": syntax error, unexpected else.
+# -- Compiling module top
+# End time: 12:50:28 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:51:15 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:51:15 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:15 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): top.sv(11): (vopt-7063) Failed to find 'a' in hierarchical name 'i.a'.
+#         Region: top
+# ** Error (suppressible): top.sv(15): (vopt-7063) Failed to find 'b' in hierarchical name 'i.b'.
+#         Region: top
+# ** Error (suppressible): top.sv(16): (vopt-7063) Failed to find 'z' in hierarchical name 'i.z'.
+#         Region: top
+# ** Error (suppressible): tb.sv(5): (vopt-7063) Failed to find 'a' in hierarchical name 't.a'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'b' in hierarchical name 't.b'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(15): (vopt-7063) Failed to find 'z' in hierarchical name 't.z'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:54:22 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:54:22 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:15 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): top.sv(15): (vopt-7063) Failed to find 'b' in hierarchical name 'i.b'.
+#         Region: top
+# ** Error (suppressible): top.sv(16): (vopt-7063) Failed to find 'z' in hierarchical name 'i.z'.
+#         Region: top
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'b' in hierarchical name 't.b'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(15): (vopt-7063) Failed to find 'z' in hierarchical name 't.z'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:01 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:58:01 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:15 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): top.sv(15): (vopt-7063) Failed to find 'b' in hierarchical name 'i.b'.
+#         Region: top
+# ** Error (suppressible): top.sv(16): (vopt-7063) Failed to find 'z' in hierarchical name 'i.z'.
+#         Region: top
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'b' in hierarchical name 't.b'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(15): (vopt-7063) Failed to find 'z' in hierarchical name 't.z'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:56 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:58:56 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:15 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'b' in hierarchical name 't.b'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(15): (vopt-7063) Failed to find 'z' in hierarchical name 't.z'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:29 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:00:29 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:15 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): top.sv(15): (vopt-7063) Failed to find 'b' in hierarchical name 'd1.b'.
+#         Region: top
+# ** Error (suppressible): top.sv(16): (vopt-7063) Failed to find 'z' in hierarchical name 'd1.z'.
+#         Region: top
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'b' in hierarchical name 't.b'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(15): (vopt-7063) Failed to find 'z' in hierarchical name 't.z'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:03:13 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:03:13 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:15 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): top.sv(15): (vopt-7063) Failed to find 'b' in hierarchical name 'd1.b'.
+#         Region: top
+# ** Error (suppressible): top.sv(16): (vopt-7063) Failed to find 'z' in hierarchical name 'd1.z'.
+#         Region: top
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:19 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:06:20 on Dec 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:15 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): top.sv(9): (vopt-7063) Failed to find 'b' in hierarchical name 'd1.b'.
+#         Region: top
+# ** Error (suppressible): top.sv(10): (vopt-7063) Failed to find 'z' in hierarchical name 'd1.z'.
+#         Region: top
+# ** Error (suppressible): top.sv(17): (vopt-7063) Failed to find 'b' in hierarchical name 'i.b'.
+#         Region: top
+# ** Error (suppressible): top.sv(18): (vopt-7063) Failed to find 'z' in hierarchical name 'i.z'.
+#         Region: top
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:07:58 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:07:58 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:15 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=xxxx a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(25)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:13:52 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	dut2
+# 	top
+# End time: 13:13:52 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:13:55 on Dec 01,2025, Elapsed time: 0:22:40
+# Errors: 26, Warnings: 0
+# vsim top 
+# Start time: 13:13:55 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.tb(fast)
+# z=xxxx a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(25)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:15:12 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:15:12 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:15:13 on Dec 01,2025, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:15:13 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=0000 a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(25)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:15:42 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:15:42 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:15:44 on Dec 01,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:15:44 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=xxxx a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(25)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:16:21 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# ** Error: ** while parsing file included at top.sv(4)
+# ** at tb.sv(12): (vlog-2730) Undefined variable: 'z'.
+# -- Compiling module top
+# End time: 13:16:21 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:16:39 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:16:39 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:16:40 on Dec 01,2025, Elapsed time: 0:00:56
+# Errors: 4, Warnings: 0
+# vsim top 
+# Start time: 13:16:40 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# ** Warning: (vsim-3839) Variable '/top/i/z', driven via a port connection, is multiply driven. See top.sv(15).
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB File: tb.sv Line: 12
+# z=0000 a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(26)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:18:06 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:18:07 on Dec 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:18:08 on Dec 01,2025, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 13:18:08 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# ** Warning: (vsim-3839) Variable '/top/i/z', driven via a port connection, is multiply driven. See top.sv(15).
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB File: tb.sv Line: 13
+# ** Warning: (vsim-3839) Variable '/top/i/y', driven via a port connection, is multiply driven. See top.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB File: tb.sv Line: 7
+# z=0000 a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(27)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:19:36 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:19:36 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:19:37 on Dec 01,2025, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 13:19:37 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# ** Warning: (vsim-3839) Variable '/top/i/z', driven via a port connection, is multiply driven. See top.sv(15).
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB File: tb.sv Line: 13
+# ** Warning: (vsim-3839) Variable '/top/i/y', driven via a port connection, is multiply driven. See top.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB File: tb.sv Line: 7
+# z=0000 a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(27)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:20:11 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:20:12 on Dec 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:20:12 on Dec 01,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 13:20:12 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=xxxx a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(27)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:21:02 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:21:02 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:21:03 on Dec 01,2025, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:21:03 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=0000 a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(27)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:21:54 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:21:54 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:21:55 on Dec 01,2025, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:21:55 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=0000 a=0100
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(27)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:22:27 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:22:27 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:22:28 on Dec 01,2025, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:22:28 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=0000 a=0000
+# MATCHED
+# ** Note: implicit $finish from program    : tb.sv(22)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:23:11 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:23:11 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:23:12 on Dec 01,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:23:12 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=0000 a=0010
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(27)
+#    Time: 0 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:29:20 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:29:20 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:29:21 on Dec 01,2025, Elapsed time: 0:06:09
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:29:21 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=0001 a=0010
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(27)
+#    Time: 0 ns  Iteration: 2  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:31:09 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:31:09 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:31:10 on Dec 01,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:31:10 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=0001 a=0010
+# NOT MATCHED
+# ** Note: implicit $finish from program    : tb.sv(27)
+#    Time: 0 ns  Iteration: 2  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:36:12 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:36:12 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:36:13 on Dec 01,2025, Elapsed time: 0:05:03
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:36:13 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): tb.sv(39): (vopt-2122) Invalid format specification '% '.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:36:37 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:36:37 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:36:13 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+#                    0a=0010 ,y=01,z=0010
+# z=0010 a=0010
+# MATCHED
+# ** Note: implicit $finish from program    : tb.sv(22)
+#    Time: 5 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:37:41 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:37:41 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:37:42 on Dec 01,2025, Elapsed time: 0:01:29
+# Errors: 2, Warnings: 0
+# vsim top 
+# Start time: 13:37:42 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=0010 a=0010
+# MATCHED
+# ** Note: implicit $finish from program    : tb.sv(22)
+#    Time: 5 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:38:11 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:38:11 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:38:12 on Dec 01,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:38:13 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=1000 a=1000
+# MATCHED
+# ** Note: implicit $finish from program    : tb.sv(22)
+#    Time: 5 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:38:49 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:38:49 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:38:50 on Dec 01,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:38:50 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): top.sv(16): (vopt-7063) Failed to find 'z' in hierarchical name 'i.z'.
+#         Region: top
+# ** Error (suppressible): tb.sv(19): (vopt-7063) Failed to find 'z' in hierarchical name 't.z'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:39:38 on Dec 01,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut1
+# -- Compiling module dut2
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:39:38 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:38:50 on Dec 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut1(fast)
+# Loading work.dut2(fast)
+# Loading work.tb(fast)
+# z=1000 a=1000
+# MATCHED
+# ** Note: implicit $finish from program    : tb.sv(22)
+#    Time: 5 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+q
+# End time: 13:40:30 on Dec 01,2025, Elapsed time: 0:01:40
+# Errors: 2, Warnings: 0

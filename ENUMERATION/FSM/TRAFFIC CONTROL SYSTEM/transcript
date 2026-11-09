@@ -1,0 +1,650 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:16:20 on Nov 19,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(30): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(37): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(44): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(51): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(58): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(65): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at tb.sv(7): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at tb.sv(15): near "endprogram": syntax error, unexpected "SystemVerilog keyword 'endprogram'".
+# ** Error (suppressible): top.sv(7): (vlog-2388) 'clk' already declared in this scope (dut).
+# ** Error (suppressible): top.sv(7): (vlog-2388) 'rst' already declared in this scope (dut).
+# End time: 15:16:20 on Nov 19,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:17:41 on Nov 19,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:17:42 on Nov 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 15:17:42 on Nov 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): tb.sv(5): (vopt-7063) Failed to find 'signol' in hierarchical name 'signol'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:18:22 on Nov 19,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:18:22 on Nov 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 15:17:42 on Nov 19,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): tb.sv(5): (vopt-7063) Failed to find 'signol' in hierarchical name 'signol'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:18:45 on Nov 19,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:18:45 on Nov 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 15:17:42 on Nov 19,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "dut(fast)".
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# clk=0,rst=0,time=0,signol=
+# clk=0,rst=0,time=10,signol=
+# clk=0,rst=1,time=20,signol=
+# clk=0,rst=1,time=30,signol=RED
+# clk=0,rst=1,time=40,signol=RED
+# clk=0,rst=1,time=50,signol=RED
+# clk=0,rst=1,time=60,signol=RED
+# clk=0,rst=1,time=70,signol=RED
+# clk=0,rst=1,time=80,signol=RED
+# clk=0,rst=1,time=90,signol=RED
+# clk=0,rst=1,time=100,signol=RED
+# clk=0,rst=1,time=110,signol=RED
+# clk=0,rst=1,time=120,signol=RED
+# clk=0,rst=1,time=130,signol=RED
+# clk=0,rst=1,time=140,signol=RED
+# clk=0,rst=1,time=150,signol=RED
+# clk=0,rst=1,time=160,signol=RED
+# clk=0,rst=1,time=170,signol=RED
+# clk=0,rst=1,time=180,signol=RED
+# clk=0,rst=1,time=190,signol=RED
+# clk=0,rst=1,time=200,signol=RED
+# clk=0,rst=1,time=210,signol=RED
+# clk=0,rst=1,time=220,signol=RED
+# clk=0,rst=1,time=230,signol=RED
+# clk=0,rst=1,time=240,signol=RED
+# clk=0,rst=1,time=250,signol=RED
+# clk=0,rst=1,time=260,signol=RED
+# clk=0,rst=1,time=270,signol=RED
+# clk=0,rst=1,time=280,signol=RED
+# clk=0,rst=1,time=290,signol=RED
+# clk=0,rst=1,time=300,signol=RED
+# clk=0,rst=1,time=310,signol=RED
+# clk=0,rst=1,time=320,signol=RED
+# clk=0,rst=1,time=330,signol=RED
+# clk=0,rst=1,time=340,signol=RED
+# clk=0,rst=1,time=350,signol=RED
+# clk=0,rst=1,time=360,signol=RED
+# clk=0,rst=1,time=370,signol=RED
+# clk=0,rst=1,time=380,signol=RED
+# clk=0,rst=1,time=390,signol=RED
+# clk=0,rst=1,time=400,signol=RED
+# clk=0,rst=1,time=410,signol=RED
+# clk=0,rst=1,time=420,signol=YELLOW
+# clk=0,rst=1,time=430,signol=YELLOW
+# clk=0,rst=1,time=440,signol=YELLOW
+# clk=0,rst=1,time=450,signol=YELLOW
+# clk=0,rst=1,time=460,signol=YELLOW
+# clk=0,rst=1,time=470,signol=YELLOW
+# clk=0,rst=1,time=480,signol=YELLOW
+# clk=0,rst=1,time=490,signol=YELLOW
+# clk=0,rst=1,time=500,signol=YELLOW
+# clk=0,rst=1,time=510,signol=YELLOW
+# clk=0,rst=1,time=520,signol=GREEN
+# clk=0,rst=1,time=530,signol=GREEN
+# clk=0,rst=1,time=540,signol=GREEN
+# clk=0,rst=1,time=550,signol=GREEN
+# clk=0,rst=1,time=560,signol=GREEN
+# clk=0,rst=1,time=570,signol=GREEN
+# clk=0,rst=1,time=580,signol=GREEN
+# clk=0,rst=1,time=590,signol=GREEN
+# ** Note: implicit $finish from program    : tb.sv(5)
+#    Time: 600 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+quit -sim
+# End time: 15:24:39 on Nov 19,2025, Elapsed time: 0:06:57
+# Errors: 2, Warnings: 0
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:53:38 on Nov 19,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:53:38 on Nov 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 15:53:38 on Nov 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# clk=0,rst=0,time=0,signol=
+# clk=0,rst=0,time=10,signol=
+# clk=0,rst=1,time=20,signol=
+# clk=0,rst=1,time=30,signol=RED
+# clk=0,rst=1,time=40,signol=RED
+# clk=0,rst=1,time=50,signol=RED
+# clk=0,rst=1,time=60,signol=RED
+# clk=0,rst=1,time=70,signol=RED
+# clk=0,rst=1,time=80,signol=RED
+# clk=0,rst=1,time=90,signol=RED
+# clk=0,rst=1,time=100,signol=RED
+# clk=0,rst=1,time=110,signol=RED
+# clk=0,rst=1,time=120,signol=RED
+# clk=0,rst=1,time=130,signol=RED
+# clk=0,rst=1,time=140,signol=RED
+# clk=0,rst=1,time=150,signol=RED
+# clk=0,rst=1,time=160,signol=RED
+# clk=0,rst=1,time=170,signol=RED
+# clk=0,rst=1,time=180,signol=RED
+# clk=0,rst=1,time=190,signol=RED
+# clk=0,rst=1,time=200,signol=RED
+# clk=0,rst=1,time=210,signol=RED
+# clk=0,rst=1,time=220,signol=RED
+# clk=0,rst=1,time=230,signol=RED
+# clk=0,rst=1,time=240,signol=RED
+# clk=0,rst=1,time=250,signol=RED
+# clk=0,rst=1,time=260,signol=RED
+# clk=0,rst=1,time=270,signol=RED
+# clk=0,rst=1,time=280,signol=RED
+# clk=0,rst=1,time=290,signol=RED
+# clk=0,rst=1,time=300,signol=RED
+# clk=0,rst=1,time=310,signol=RED
+# clk=0,rst=1,time=320,signol=RED
+# clk=0,rst=1,time=330,signol=RED
+# clk=0,rst=1,time=340,signol=RED
+# clk=0,rst=1,time=350,signol=RED
+# clk=0,rst=1,time=360,signol=RED
+# clk=0,rst=1,time=370,signol=RED
+# clk=0,rst=1,time=380,signol=RED
+# clk=0,rst=1,time=390,signol=RED
+# clk=0,rst=1,time=400,signol=RED
+# clk=0,rst=1,time=410,signol=RED
+# clk=0,rst=1,time=420,signol=YELLOW
+# clk=0,rst=1,time=430,signol=YELLOW
+# clk=0,rst=1,time=440,signol=YELLOW
+# clk=0,rst=1,time=450,signol=YELLOW
+# clk=0,rst=1,time=460,signol=YELLOW
+# clk=0,rst=1,time=470,signol=YELLOW
+# clk=0,rst=1,time=480,signol=YELLOW
+# clk=0,rst=1,time=490,signol=YELLOW
+# clk=0,rst=1,time=500,signol=YELLOW
+# clk=0,rst=1,time=510,signol=YELLOW
+# clk=0,rst=1,time=520,signol=GREEN
+# clk=0,rst=1,time=530,signol=GREEN
+# clk=0,rst=1,time=540,signol=GREEN
+# clk=0,rst=1,time=550,signol=GREEN
+# clk=0,rst=1,time=560,signol=GREEN
+# clk=0,rst=1,time=570,signol=GREEN
+# clk=0,rst=1,time=580,signol=GREEN
+# clk=0,rst=1,time=590,signol=GREEN
+# clk=0,rst=1,time=600,signol=GREEN
+# clk=0,rst=1,time=610,signol=GREEN
+# clk=0,rst=1,time=620,signol=RED
+# clk=0,rst=1,time=630,signol=RED
+# clk=0,rst=1,time=640,signol=RED
+# clk=0,rst=1,time=650,signol=RED
+# clk=0,rst=1,time=660,signol=RED
+# clk=0,rst=1,time=670,signol=RED
+# clk=0,rst=1,time=680,signol=RED
+# clk=0,rst=1,time=690,signol=RED
+# clk=0,rst=1,time=700,signol=RED
+# clk=0,rst=1,time=710,signol=RED
+# clk=0,rst=1,time=720,signol=RED
+# clk=0,rst=1,time=730,signol=RED
+# clk=0,rst=1,time=740,signol=RED
+# clk=0,rst=1,time=750,signol=RED
+# clk=0,rst=1,time=760,signol=RED
+# clk=0,rst=1,time=770,signol=RED
+# clk=0,rst=1,time=780,signol=RED
+# clk=0,rst=1,time=790,signol=RED
+# clk=0,rst=1,time=800,signol=RED
+# clk=0,rst=1,time=810,signol=RED
+# clk=0,rst=1,time=820,signol=RED
+# clk=0,rst=1,time=830,signol=RED
+# clk=0,rst=1,time=840,signol=RED
+# clk=0,rst=1,time=850,signol=RED
+# clk=0,rst=1,time=860,signol=RED
+# clk=0,rst=1,time=870,signol=RED
+# clk=0,rst=1,time=880,signol=RED
+# clk=0,rst=1,time=890,signol=RED
+# clk=0,rst=1,time=900,signol=RED
+# clk=0,rst=1,time=910,signol=RED
+# clk=0,rst=1,time=920,signol=RED
+# clk=0,rst=1,time=930,signol=RED
+# clk=0,rst=1,time=940,signol=RED
+# clk=0,rst=1,time=950,signol=RED
+# clk=0,rst=1,time=960,signol=RED
+# clk=0,rst=1,time=970,signol=RED
+# clk=0,rst=1,time=980,signol=RED
+# clk=0,rst=1,time=990,signol=RED
+# clk=0,rst=1,time=1000,signol=RED
+# clk=0,rst=1,time=1010,signol=RED
+# clk=0,rst=1,time=1020,signol=RED
+# clk=0,rst=1,time=1030,signol=RED
+# clk=0,rst=1,time=1040,signol=RED
+# clk=0,rst=1,time=1050,signol=RED
+# clk=0,rst=1,time=1060,signol=RED
+# clk=0,rst=1,time=1070,signol=RED
+# clk=0,rst=1,time=1080,signol=RED
+# clk=0,rst=1,time=1090,signol=RED
+# clk=0,rst=1,time=1100,signol=RED
+# clk=0,rst=1,time=1110,signol=RED
+# clk=0,rst=1,time=1120,signol=RED
+# clk=0,rst=1,time=1130,signol=RED
+# clk=0,rst=1,time=1140,signol=RED
+# clk=0,rst=1,time=1150,signol=RED
+# clk=0,rst=1,time=1160,signol=RED
+# clk=0,rst=1,time=1170,signol=RED
+# clk=0,rst=1,time=1180,signol=RED
+# clk=0,rst=1,time=1190,signol=RED
+# clk=0,rst=1,time=1200,signol=RED
+# clk=0,rst=1,time=1210,signol=RED
+# clk=0,rst=1,time=1220,signol=RED
+# clk=0,rst=1,time=1230,signol=RED
+# clk=0,rst=1,time=1240,signol=RED
+# clk=0,rst=1,time=1250,signol=RED
+# clk=0,rst=1,time=1260,signol=RED
+# clk=0,rst=1,time=1270,signol=RED
+# clk=0,rst=1,time=1280,signol=RED
+# clk=0,rst=1,time=1290,signol=RED
+# clk=0,rst=1,time=1300,signol=RED
+# clk=0,rst=1,time=1310,signol=RED
+# clk=0,rst=1,time=1320,signol=RED
+# clk=0,rst=1,time=1330,signol=RED
+# clk=0,rst=1,time=1340,signol=RED
+# clk=0,rst=1,time=1350,signol=RED
+# clk=0,rst=1,time=1360,signol=RED
+# clk=0,rst=1,time=1370,signol=RED
+# clk=0,rst=1,time=1380,signol=RED
+# clk=0,rst=1,time=1390,signol=RED
+# clk=0,rst=1,time=1400,signol=RED
+# clk=0,rst=1,time=1410,signol=RED
+# clk=0,rst=1,time=1420,signol=RED
+# clk=0,rst=1,time=1430,signol=RED
+# clk=0,rst=1,time=1440,signol=RED
+# clk=0,rst=1,time=1450,signol=RED
+# clk=0,rst=1,time=1460,signol=RED
+# clk=0,rst=1,time=1470,signol=RED
+# clk=0,rst=1,time=1480,signol=RED
+# clk=0,rst=1,time=1490,signol=RED
+# clk=0,rst=1,time=1500,signol=RED
+# clk=0,rst=1,time=1510,signol=RED
+# clk=0,rst=1,time=1520,signol=RED
+# clk=0,rst=1,time=1530,signol=RED
+# clk=0,rst=1,time=1540,signol=RED
+# clk=0,rst=1,time=1550,signol=RED
+# clk=0,rst=1,time=1560,signol=RED
+# clk=0,rst=1,time=1570,signol=RED
+# clk=0,rst=1,time=1580,signol=RED
+# clk=0,rst=1,time=1590,signol=RED
+# clk=0,rst=1,time=1600,signol=RED
+# clk=0,rst=1,time=1610,signol=RED
+# clk=0,rst=1,time=1620,signol=RED
+# clk=0,rst=1,time=1630,signol=RED
+# clk=0,rst=1,time=1640,signol=RED
+# clk=0,rst=1,time=1650,signol=RED
+# clk=0,rst=1,time=1660,signol=RED
+# clk=0,rst=1,time=1670,signol=RED
+# clk=0,rst=1,time=1680,signol=RED
+# clk=0,rst=1,time=1690,signol=RED
+# clk=0,rst=1,time=1700,signol=RED
+# clk=0,rst=1,time=1710,signol=RED
+# clk=0,rst=1,time=1720,signol=RED
+# clk=0,rst=1,time=1730,signol=RED
+# clk=0,rst=1,time=1740,signol=RED
+# clk=0,rst=1,time=1750,signol=RED
+# clk=0,rst=1,time=1760,signol=RED
+# clk=0,rst=1,time=1770,signol=RED
+# clk=0,rst=1,time=1780,signol=RED
+# clk=0,rst=1,time=1790,signol=RED
+# clk=0,rst=1,time=1800,signol=RED
+# clk=0,rst=1,time=1810,signol=RED
+# clk=0,rst=1,time=1820,signol=RED
+# clk=0,rst=1,time=1830,signol=RED
+# clk=0,rst=1,time=1840,signol=RED
+# clk=0,rst=1,time=1850,signol=RED
+# clk=0,rst=1,time=1860,signol=RED
+# clk=0,rst=1,time=1870,signol=RED
+# clk=0,rst=1,time=1880,signol=RED
+# clk=0,rst=1,time=1890,signol=RED
+# clk=0,rst=1,time=1900,signol=RED
+# clk=0,rst=1,time=1910,signol=RED
+# clk=0,rst=1,time=1920,signol=RED
+# clk=0,rst=1,time=1930,signol=RED
+# clk=0,rst=1,time=1940,signol=RED
+# clk=0,rst=1,time=1950,signol=RED
+# clk=0,rst=1,time=1960,signol=RED
+# clk=0,rst=1,time=1970,signol=RED
+# clk=0,rst=1,time=1980,signol=RED
+# clk=0,rst=1,time=1990,signol=RED
+# ** Note: implicit $finish from program    : tb.sv(5)
+#    Time: 2 us  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:57:49 on Nov 19,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:57:49 on Nov 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:57:51 on Nov 19,2025, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 15:57:51 on Nov 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "dut(fast)".
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# clk=0,rst=0,time=0,signol=
+# clk=0,rst=0,time=10,signol=
+# clk=0,rst=1,time=20,signol=
+# clk=0,rst=1,time=30,signol=RED
+# clk=0,rst=1,time=40,signol=RED
+# clk=0,rst=1,time=50,signol=RED
+# clk=0,rst=1,time=60,signol=RED
+# clk=0,rst=1,time=70,signol=RED
+# clk=0,rst=1,time=80,signol=RED
+# clk=0,rst=1,time=90,signol=RED
+# clk=0,rst=1,time=100,signol=RED
+# clk=0,rst=1,time=110,signol=RED
+# clk=0,rst=1,time=120,signol=RED
+# clk=0,rst=1,time=130,signol=RED
+# clk=0,rst=1,time=140,signol=RED
+# clk=0,rst=1,time=150,signol=RED
+# clk=0,rst=1,time=160,signol=RED
+# clk=0,rst=1,time=170,signol=RED
+# clk=0,rst=1,time=180,signol=RED
+# clk=0,rst=1,time=190,signol=RED
+# clk=0,rst=1,time=200,signol=RED
+# clk=0,rst=1,time=210,signol=RED
+# clk=0,rst=1,time=220,signol=RED
+# clk=0,rst=1,time=230,signol=RED
+# clk=0,rst=1,time=240,signol=RED
+# clk=0,rst=1,time=250,signol=RED
+# clk=0,rst=1,time=260,signol=RED
+# clk=0,rst=1,time=270,signol=RED
+# clk=0,rst=1,time=280,signol=RED
+# clk=0,rst=1,time=290,signol=RED
+# clk=0,rst=1,time=300,signol=RED
+# clk=0,rst=1,time=310,signol=RED
+# clk=0,rst=1,time=320,signol=RED
+# clk=0,rst=1,time=330,signol=RED
+# clk=0,rst=1,time=340,signol=RED
+# clk=0,rst=1,time=350,signol=RED
+# clk=0,rst=1,time=360,signol=RED
+# clk=0,rst=1,time=370,signol=RED
+# clk=0,rst=1,time=380,signol=RED
+# clk=0,rst=1,time=390,signol=RED
+# clk=0,rst=1,time=400,signol=RED
+# clk=0,rst=1,time=410,signol=RED
+# clk=0,rst=1,time=420,signol=YELLOW
+# clk=0,rst=1,time=430,signol=YELLOW
+# clk=0,rst=1,time=440,signol=YELLOW
+# clk=0,rst=1,time=450,signol=YELLOW
+# clk=0,rst=1,time=460,signol=YELLOW
+# clk=0,rst=1,time=470,signol=YELLOW
+# clk=0,rst=1,time=480,signol=YELLOW
+# clk=0,rst=1,time=490,signol=YELLOW
+# clk=0,rst=1,time=500,signol=YELLOW
+# clk=0,rst=1,time=510,signol=YELLOW
+# clk=0,rst=1,time=520,signol=GREEN
+# clk=0,rst=1,time=530,signol=GREEN
+# clk=0,rst=1,time=540,signol=GREEN
+# clk=0,rst=1,time=550,signol=GREEN
+# clk=0,rst=1,time=560,signol=GREEN
+# clk=0,rst=1,time=570,signol=GREEN
+# clk=0,rst=1,time=580,signol=GREEN
+# clk=0,rst=1,time=590,signol=GREEN
+# clk=0,rst=1,time=600,signol=GREEN
+# clk=0,rst=1,time=610,signol=GREEN
+# clk=0,rst=1,time=620,signol=RED
+# clk=0,rst=1,time=630,signol=RED
+# clk=0,rst=1,time=640,signol=RED
+# clk=0,rst=1,time=650,signol=RED
+# clk=0,rst=1,time=660,signol=RED
+# clk=0,rst=1,time=670,signol=RED
+# clk=0,rst=1,time=680,signol=RED
+# clk=0,rst=1,time=690,signol=RED
+# clk=0,rst=1,time=700,signol=RED
+# clk=0,rst=1,time=710,signol=RED
+# clk=0,rst=1,time=720,signol=RED
+# clk=0,rst=1,time=730,signol=RED
+# clk=0,rst=1,time=740,signol=RED
+# clk=0,rst=1,time=750,signol=RED
+# clk=0,rst=1,time=760,signol=RED
+# clk=0,rst=1,time=770,signol=RED
+# clk=0,rst=1,time=780,signol=RED
+# clk=0,rst=1,time=790,signol=RED
+# clk=0,rst=1,time=800,signol=RED
+# clk=0,rst=1,time=810,signol=RED
+# clk=0,rst=1,time=820,signol=RED
+# clk=0,rst=1,time=830,signol=RED
+# clk=0,rst=1,time=840,signol=RED
+# clk=0,rst=1,time=850,signol=RED
+# clk=0,rst=1,time=860,signol=RED
+# clk=0,rst=1,time=870,signol=RED
+# clk=0,rst=1,time=880,signol=RED
+# clk=0,rst=1,time=890,signol=RED
+# clk=0,rst=1,time=900,signol=RED
+# clk=0,rst=1,time=910,signol=RED
+# clk=0,rst=1,time=920,signol=RED
+# clk=0,rst=1,time=930,signol=RED
+# clk=0,rst=1,time=940,signol=RED
+# clk=0,rst=1,time=950,signol=RED
+# clk=0,rst=1,time=960,signol=RED
+# clk=0,rst=1,time=970,signol=RED
+# clk=0,rst=1,time=980,signol=RED
+# clk=0,rst=1,time=990,signol=RED
+# clk=0,rst=1,time=1000,signol=RED
+# clk=0,rst=1,time=1010,signol=RED
+# clk=0,rst=1,time=1020,signol=RED
+# clk=0,rst=1,time=1030,signol=YELLOW
+# clk=0,rst=1,time=1040,signol=YELLOW
+# clk=0,rst=1,time=1050,signol=YELLOW
+# clk=0,rst=1,time=1060,signol=YELLOW
+# clk=0,rst=1,time=1070,signol=YELLOW
+# clk=0,rst=1,time=1080,signol=YELLOW
+# clk=0,rst=1,time=1090,signol=YELLOW
+# clk=0,rst=1,time=1100,signol=YELLOW
+# clk=0,rst=1,time=1110,signol=YELLOW
+# clk=0,rst=1,time=1120,signol=YELLOW
+# clk=0,rst=1,time=1130,signol=GREEN
+# clk=0,rst=1,time=1140,signol=GREEN
+# clk=0,rst=1,time=1150,signol=GREEN
+# clk=0,rst=1,time=1160,signol=GREEN
+# clk=0,rst=1,time=1170,signol=GREEN
+# clk=0,rst=1,time=1180,signol=GREEN
+# clk=0,rst=1,time=1190,signol=GREEN
+# clk=0,rst=1,time=1200,signol=GREEN
+# clk=0,rst=1,time=1210,signol=GREEN
+# clk=0,rst=1,time=1220,signol=GREEN
+# clk=0,rst=1,time=1230,signol=RED
+# clk=0,rst=1,time=1240,signol=RED
+# clk=0,rst=1,time=1250,signol=RED
+# clk=0,rst=1,time=1260,signol=RED
+# clk=0,rst=1,time=1270,signol=RED
+# clk=0,rst=1,time=1280,signol=RED
+# clk=0,rst=1,time=1290,signol=RED
+# clk=0,rst=1,time=1300,signol=RED
+# clk=0,rst=1,time=1310,signol=RED
+# clk=0,rst=1,time=1320,signol=RED
+# clk=0,rst=1,time=1330,signol=RED
+# clk=0,rst=1,time=1340,signol=RED
+# clk=0,rst=1,time=1350,signol=RED
+# clk=0,rst=1,time=1360,signol=RED
+# clk=0,rst=1,time=1370,signol=RED
+# clk=0,rst=1,time=1380,signol=RED
+# clk=0,rst=1,time=1390,signol=RED
+# clk=0,rst=1,time=1400,signol=RED
+# clk=0,rst=1,time=1410,signol=RED
+# clk=0,rst=1,time=1420,signol=RED
+# clk=0,rst=1,time=1430,signol=RED
+# clk=0,rst=1,time=1440,signol=RED
+# clk=0,rst=1,time=1450,signol=RED
+# clk=0,rst=1,time=1460,signol=RED
+# clk=0,rst=1,time=1470,signol=RED
+# clk=0,rst=1,time=1480,signol=RED
+# clk=0,rst=1,time=1490,signol=RED
+# clk=0,rst=1,time=1500,signol=RED
+# clk=0,rst=1,time=1510,signol=RED
+# clk=0,rst=1,time=1520,signol=RED
+# clk=0,rst=1,time=1530,signol=RED
+# clk=0,rst=1,time=1540,signol=RED
+# clk=0,rst=1,time=1550,signol=RED
+# clk=0,rst=1,time=1560,signol=RED
+# clk=0,rst=1,time=1570,signol=RED
+# clk=0,rst=1,time=1580,signol=RED
+# clk=0,rst=1,time=1590,signol=RED
+# clk=0,rst=1,time=1600,signol=RED
+# clk=0,rst=1,time=1610,signol=RED
+# clk=0,rst=1,time=1620,signol=RED
+# clk=0,rst=1,time=1630,signol=RED
+# clk=0,rst=1,time=1640,signol=YELLOW
+# clk=0,rst=1,time=1650,signol=YELLOW
+# clk=0,rst=1,time=1660,signol=YELLOW
+# clk=0,rst=1,time=1670,signol=YELLOW
+# clk=0,rst=1,time=1680,signol=YELLOW
+# clk=0,rst=1,time=1690,signol=YELLOW
+# clk=0,rst=1,time=1700,signol=YELLOW
+# clk=0,rst=1,time=1710,signol=YELLOW
+# clk=0,rst=1,time=1720,signol=YELLOW
+# clk=0,rst=1,time=1730,signol=YELLOW
+# clk=0,rst=1,time=1740,signol=GREEN
+# clk=0,rst=1,time=1750,signol=GREEN
+# clk=0,rst=1,time=1760,signol=GREEN
+# clk=0,rst=1,time=1770,signol=GREEN
+# clk=0,rst=1,time=1780,signol=GREEN
+# clk=0,rst=1,time=1790,signol=GREEN
+# clk=0,rst=1,time=1800,signol=GREEN
+# clk=0,rst=1,time=1810,signol=GREEN
+# clk=0,rst=1,time=1820,signol=GREEN
+# clk=0,rst=1,time=1830,signol=GREEN
+# clk=0,rst=1,time=1840,signol=RED
+# clk=0,rst=1,time=1850,signol=RED
+# clk=0,rst=1,time=1860,signol=RED
+# clk=0,rst=1,time=1870,signol=RED
+# clk=0,rst=1,time=1880,signol=RED
+# clk=0,rst=1,time=1890,signol=RED
+# clk=0,rst=1,time=1900,signol=RED
+# clk=0,rst=1,time=1910,signol=RED
+# clk=0,rst=1,time=1920,signol=RED
+# clk=0,rst=1,time=1930,signol=RED
+# clk=0,rst=1,time=1940,signol=RED
+# clk=0,rst=1,time=1950,signol=RED
+# clk=0,rst=1,time=1960,signol=RED
+# clk=0,rst=1,time=1970,signol=RED
+# clk=0,rst=1,time=1980,signol=RED
+# clk=0,rst=1,time=1990,signol=RED
+# ** Note: implicit $finish from program    : tb.sv(5)
+#    Time: 2 us  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+quit -sim
+# End time: 16:01:31 on Nov 19,2025, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 0

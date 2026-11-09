@@ -1,0 +1,43 @@
+Start time: 15:10:27 on May 01,2026
+qverilog DATA_TYPES.sv 
+-- Compiling module DATA_TYPES
+
+Top level modules:
+	DATA_TYPES
+# vsim -lib work work.DATA_TYPES -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.DATA_TYPES(fast)
+# run -all
+# ---------VERILOG---------
+# THE DEFAULT VALUE OF a=x,THE DEFAULT SIZE OF a=1
+# THE DEFAULT VALUE OF b=z,THE DEFAULT SIZE OF b=1
+# THE DEFAULT VALUE OF c=x,THE DEFAULT SIZE OF c=32
+# THE DEFAULT VALUE OF d=x,THE DEFAULT SIZE OF d=64
+# THE DEFAULT VALUE OF e=0,THE DEFAULT SIZE OF e=0
+# THE DEFAULT VALUE OF f=0,THE DEFAULT SIZE OF f=0
+# -------SYSTEM VERILOG-------
+# THE DEFAULT VALUE OF g=0,THE DEFAULT SIZE OF g=1
+# THE DEFAULT VALUE OF h=0,THE DEFAULT SIZE OF h=8
+# THE DEFAULT VALUE OF i=0,THE DEFAULT SIZE OF i=32
+# THE DEFAULT VALUE OF j=0,THE DEFAULT SIZE OF j=16
+# THE DEFAULT VALUE OF k=0,THE DEFAULT SIZE OF k=64
+# THE DEFAULT VALUE OF l=0,THE DEFAULT SIZE OF l=0
+# THE DEFAULT VALUE OF m=x,THE DEFAULT SIZE OF m=1
+#  quit -f
+# End time: 15:10:37 on May 01,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0

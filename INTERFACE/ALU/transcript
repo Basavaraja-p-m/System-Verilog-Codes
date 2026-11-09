@@ -1,0 +1,59 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:55:15 on Nov 30,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:55:16 on Nov 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 18:55:16 on Nov 30,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.tb(fast)
+# a=0011010100100100,b=0101111010000001,opcode=01001,y=00000000000000000001010000000000,out=00000000000000000001010000000000
+# ===TEST PASSED===
+# a=0101011001100011,b=0111101100001101,opcode=01101,y=00000000000000000101001000000001,out=00000000000000000101001000000001
+# ===TEST PASSED===
+# a=1000010001100101,b=0101001000010010,opcode=00001,y=00000000000000000011001001010011,out=00000000000000000011001001010011
+# ===TEST PASSED===
+# a=1100110100001101,b=1111000101110110,opcode=11101,y=00000000000000001100000100000100,out=00000000000000001100000100000100
+# ===TEST PASSED===
+# a=0101011111101101,b=1111011110001100,opcode=11001,y=00000000000000000101011110001100,out=00000000000000000101011110001100
+# ===TEST PASSED===
+# a=0010010011000110,b=1000010011000101,opcode=01010,y=00000000000000000000010011000100,out=00000000000000000000010011000100
+# ===TEST PASSED===
+# a=1111011111100101,b=0111001001110111,opcode=10010,y=00000000000000000111001001100101,out=00000000000000000111001001100101
+# ===TEST PASSED===
+# a=1101101110001111,b=0110100111110010,opcode=01110,y=00000000000000000100100110000010,out=00000000000000000100100110000010
+# ===TEST PASSED===
+# a=0111101011101000,b=0100111011000101,opcode=11100,y=00000000000000000100101011000000,out=00000000000000000100101011000000
+# ===TEST PASSED===
+# a=0010100010111101,b=0101100000101101,opcode=00101,y=00001101111100000101011001101101,out=00001101111100000101011001101101
+# ===TEST PASSED===
+# ** Note: implicit $finish from program    : tb.sv(33)
+#    Time: 100 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+# End time: 18:55:37 on Nov 30,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

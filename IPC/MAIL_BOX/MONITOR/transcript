@@ -1,0 +1,268 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:27:37 on Dec 16,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: monitor.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:27:37 on Dec 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:27:37 on Dec 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: monitor.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=
+# i=  329205668 s=  372132332
+# name=
+# i= -311794627 s=-1439825143
+# name=
+# i=  329205668 s=  372132332
+# name=
+# i= -311794627 s=-1439825143
+# simulation failed
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:29:30 on Dec 16,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: monitor.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:29:31 on Dec 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# End time: 16:29:32 on Dec 16,2025, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 16:29:32 on Dec 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: monitor.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from p1
+# i=  329205668 s=  372132332
+# name=from p2
+# i= -311794627 s=-1439825143
+# name=from p3
+# i=  329205668 s=  372132332
+# name=from p4
+# i= -311794627 s=-1439825143
+# simulation failed
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:34:25 on Dec 16,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: ** while parsing file included at top.sv(4)
+# ** at scoreboard.sv(12): (vlog-2730) Undefined variable: 'x'.
+# End time: 16:34:25 on Dec 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:34:40 on Dec 16,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: monitor.sv(10): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(10): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# ** Error: top.sv(17): (vlog-13266) No actual value has been specified for a formal argument 'z' that does not have a default value.
+# ** Error: top.sv(17): (vlog-13265) Number of actuals and formals does not match in function call.
+# ** Error: top.sv(18): (vlog-13266) No actual value has been specified for a formal argument 'y' that does not have a default value.
+# ** Error: top.sv(18): (vlog-13265) Number of actuals and formals does not match in function call.
+# ** Error: top.sv(19): (vlog-13266) No actual value has been specified for a formal argument 'x' that does not have a default value.
+# ** Error: top.sv(19): (vlog-13265) Number of actuals and formals does not match in function call.
+# End time: 16:34:40 on Dec 16,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 2
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:37:36 on Dec 16,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: monitor.sv(10): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(10): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:37:36 on Dec 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:37:37 on Dec 16,2025, Elapsed time: 0:08:05
+# Errors: 13, Warnings: 6
+# vsim top 
+# Start time: 16:37:37 on Dec 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: monitor.sv(10): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(10): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:38:40 on Dec 16,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: monitor.sv(10): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(10): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:38:40 on Dec 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:38:41 on Dec 16,2025, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 16:38:41 on Dec 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: monitor.sv(10): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(10): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from p1
+# i=  329205668 s=  372132332
+# name=from p2
+# i= -311794627 s=-1439825143
+# name=from p3
+# i=  329205668 s=  372132332
+# name=from p4
+# i= -311794627 s=-1439825143
+# simulation failed
+# name=from p1
+# i=-1624938887 s= -645303245
+# name=from p2
+# i= -916210301 s=   72097840
+# name=from p3
+# i=-1624938887 s= -645303245
+# name=from p4
+# i= -916210301 s=   72097840
+# simulation failed
+# name=from p1
+# i=  271270324 s= -861701784
+# name=from p2
+# i=-1897660817 s= 1679314790
+# name=from p3
+# i=  271270324 s= -861701784
+# name=from p4
+# i=-1897660817 s= 1679314790
+# simulation failed
+# name=from p1
+# i=  258195147 s=  858785009
+# name=from p2
+# i= -460540754 s=   53499813
+# name=from p3
+# i=  258195147 s=  858785009
+# name=from p4
+# i= -460540754 s=   53499813
+# simulation failed
+# name=from p1
+# i=  404336101 s=  977077808
+# name=from p2
+# i=-1260297418 s=  -29549002
+# name=from p3
+# i=  404336101 s=  977077808
+# name=from p4
+# i=-1260297418 s=  -29549002
+# simulation failed
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:40:21 on Dec 16,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:40:21 on Dec 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:40:22 on Dec 16,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:40:22 on Dec 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from p1
+# i=  329205668 s=  372132332
+# name=from p2
+# i= -311794627 s=-1439825143
+# name=from p3
+# i=  329205668 s=  372132332
+# name=from p4
+# i= -311794627 s=-1439825143
+# simulation failed
+# name=from p1
+# i=-1624938887 s= -645303245
+# name=from p2
+# i= -916210301 s=   72097840
+# name=from p3
+# i=-1624938887 s= -645303245
+# name=from p4
+# i= -916210301 s=   72097840
+# simulation failed
+# name=from p1
+# i=  271270324 s= -861701784
+# name=from p2
+# i=-1897660817 s= 1679314790
+# name=from p3
+# i=  271270324 s= -861701784
+# name=from p4
+# i=-1897660817 s= 1679314790
+# simulation failed
+# name=from p1
+# i=  258195147 s=  858785009
+# name=from p2
+# i= -460540754 s=   53499813
+# name=from p3
+# i=  258195147 s=  858785009
+# name=from p4
+# i= -460540754 s=   53499813
+# simulation failed
+# name=from p1
+# i=  404336101 s=  977077808
+# name=from p2
+# i=-1260297418 s=  -29549002
+# name=from p3
+# i=  404336101 s=  977077808
+# name=from p4
+# i=-1260297418 s=  -29549002
+# simulation failed
+q
+# End time: 16:41:41 on Dec 16,2025, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0

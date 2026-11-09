@@ -1,0 +1,38 @@
+Start time: 15:24:42 on May 01,2026
+qverilog snippet.sv 
+-- Compiling module snippet
+
+Top level modules:
+	snippet
+# vsim -lib work work.snippet -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# run -all
+# the second statement                   1
+# the third statement                   3
+# second first                   5
+# the first statement                   6
+# second second                   6
+# the last statement                   6
+# third first                   8
+# first first                  11
+# first second                  12
+# third second                  18
+#  quit -f
+# End time: 15:24:45 on May 01,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

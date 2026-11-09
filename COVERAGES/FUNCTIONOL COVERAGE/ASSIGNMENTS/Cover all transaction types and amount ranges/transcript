@@ -1,0 +1,109 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:52:07 on Jul 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module top
+# ** Error: (vlog-13069) top.sv(10): near ";": syntax error, unexpected ';', expecting ':'.
+# ** Error: top.sv(14): (vlog-2730) Undefined variable: 'c1'.
+# End time: 12:52:07 on Jul 06,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:52:38 on Jul 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:52:39 on Jul 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:52:39 on Jul 06,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$urandom_randge' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: top.sv Line: 18
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$urandom_randge'
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#13 File: top.sv Line: 18
+# credit =       1093 debit =           0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:54:26 on Jul 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module top
+# ** Error: top.sv(10): (vlog-2140) The coverpoint or cross identifier 'cr' has already been declared.
+# ** Error: (vlog-13024) top.sv(10): near ";": syntax error, unexpected 'bins' declaration.
+# ** Error: top.sv(20): (vlog-2730) Undefined variable: 'c1'.
+# End time: 12:54:26 on Jul 06,2026, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:54:39 on Jul 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:54:39 on Jul 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:54:41 on Jul 06,2026, Elapsed time: 0:02:02
+# Errors: 7, Warnings: 1
+# vsim top 
+# Start time: 12:54:41 on Jul 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$urandom_randge' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: top.sv Line: 23
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$urandom_randge'
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#18 File: top.sv Line: 23
+# credit =       1093 debit =           0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:32 on Jul 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:55:32 on Jul 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:55:33 on Jul 06,2026, Elapsed time: 0:00:52
+# Errors: 1, Warnings: 1
+# vsim top 
+# Start time: 12:55:33 on Jul 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$urandom_randge' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: top.sv Line: 23
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$urandom_randge'
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#18 File: top.sv Line: 23
+# credit =       1093 debit =           0
+# End time: 13:06:22 on Jul 06,2026, Elapsed time: 0:10:49
+# Errors: 1, Warnings: 1

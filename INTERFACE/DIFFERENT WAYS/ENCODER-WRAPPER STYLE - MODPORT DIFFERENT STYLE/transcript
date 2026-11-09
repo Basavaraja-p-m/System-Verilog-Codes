@@ -1,0 +1,52 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:50:17 on Nov 17,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module wrapper
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:50:17 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:50:17 on Nov 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.tb(fast)
+# Loading work.wrapper(fast)
+# Loading work.dut(fast)
+# a=0001,y=00
+# ====TEST PASSED====
+# a=0010,y=01
+# ====TEST PASSED====
+# a=0100,y=10
+# ====TEST PASSED====
+# a=1000,y=11
+# ====TEST PASSED====
+# ** Note: implicit $finish from program    : tb.sv(32)
+#    Time: 40 ns  Iteration: 0  Instance: /top/t
+# 1
+# Simulation stop requested.
+quit -sim
+# End time: 12:54:07 on Nov 17,2025, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 0

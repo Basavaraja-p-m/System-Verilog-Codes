@@ -1,0 +1,128 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/INTERFACE
+T_opt
+!s110 1763115596
+VZh:>=0Im_YDg_SIhHDCo32
+Z1 04 3 4 work TOP fast 0
+=1-84144d0ea3d5-6917024c-11a-3b8
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1763115766
+V]FPQU[`XB>5oFi]3h0mfc0
+R1
+=1-84144d0ea3d5-691702f6-71-e88
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+Yinter
+Z4 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z5 !s110 1763115595
+!i10b 1
+!s100 n:LHDInlc533f]gEF1aeB3
+IEJk8P2Fi@HC5bClXm@X@V2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 !s105 TOP_sv_unit
+S1
+R0
+Z8 w1763114598
+8inter.sv
+Finter.sv
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1763115594.000000
+Z11 !s107 MUX_tb.sv|MUX.sv|inter.sv|TOP.sv|
+Z12 !s90 -reportprogress|300|TOP.sv|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vMUX
+R4
+R5
+!i10b 1
+!s100 lU;m4AM7ZB;E6LiXW[4]j3
+IdSOTOl:7@iZeA;YjH72[52
+R6
+R7
+S1
+R0
+R8
+8MUX.sv
+FMUX.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+n@m@u@x
+4MUX_tb
+R4
+R5
+!i10b 1
+!s100 :SoXoTiT[cPlgdNIVTb4b1
+IQ3QBI[dh3dE`nU7ROH6_e3
+R6
+R7
+S1
+R0
+w1763115579
+8MUX_tb.sv
+FMUX_tb.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+n@m@u@x_tb
+vTOP
+R4
+R5
+!i10b 1
+!s100 n8B?C41>dOFC_3VmgBMP[0
+I2Gl]f_<Dl9fzdW32II13P3
+R6
+R7
+S1
+R0
+w1763114899
+8TOP.sv
+FTOP.sv
+L0 5
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+n@t@o@p

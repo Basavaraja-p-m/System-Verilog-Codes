@@ -1,0 +1,229 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:51:41 on Jan 02,2026
+# vlog -reportprogress 300 sram.sv "+acc" 
+# -- Compiling module sram
+# 
+# Top level modules:
+# 	sram
+# End time: 14:51:41 on Jan 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sram 
+# Start time: 14:51:41 on Jan 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.sram(fast)
+# data_in= 36 addr= 1 wre=1 rde=1
+# data_in= 13 addr=13 wre=1 rde=0
+# data_in=  1 addr=13 wre=0 rde=1
+# data_in=237 addr=12 wre=1 rde=0
+# data_in=197 addr=10 wre=1 rde=1
+# data_in= 18 addr=15 wre=0 rde=0
+# data_in=232 addr= 5 wre=0 rde=1
+# data_in= 45 addr= 5 wre=1 rde=0
+# data_in=128 addr= 0 wre=0 rde=1
+# data_in=150 addr=19 wre=1 rde=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:52:16 on Jan 02,2026
+# vlog -reportprogress 300 sram.sv "+acc" 
+# -- Compiling module sram
+# 
+# Top level modules:
+# 	sram
+# End time: 14:52:16 on Jan 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:52:17 on Jan 02,2026, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# vsim sram 
+# Start time: 14:52:17 on Jan 02,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram(fast)
+# data_in= 36 addr= 1 wre=1 rde=1
+# data_in= 13 addr=13 wre=1 rde=0
+# data_in=  1 addr=13 wre=0 rde=1
+# data_in=237 addr=12 wre=1 rde=0
+# data_in=197 addr=10 wre=1 rde=1
+# data_in= 18 addr=15 wre=0 rde=0
+# data_in=232 addr= 5 wre=0 rde=1
+# data_in= 45 addr= 5 wre=1 rde=0
+# data_in=128 addr= 0 wre=0 rde=1
+# data_in=150 addr=19 wre=1 rde=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:00:15 on Jan 02,2026
+# vlog -reportprogress 300 sram.sv "+acc" 
+# -- Compiling module sram
+# ** Error: (vlog-13069) sram.sv(27): near ";": syntax error, unexpected ';', expecting ')' or ','.
+# End time: 15:00:16 on Jan 02,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog sram.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:00:35 on Jan 02,2026
+# vlog -reportprogress 300 sram.sv "+acc" 
+# -- Compiling module sram
+# 
+# Top level modules:
+# 	sram
+# End time: 15:00:35 on Jan 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:00:37 on Jan 02,2026, Elapsed time: 0:08:20
+# Errors: 4, Warnings: 0
+# vsim sram 
+# Start time: 15:00:37 on Jan 02,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): sram.sv(27): (vopt-7063) Failed to find 'get_inst_coverage' in hierarchical name 'get_inst_coverage'.
+#         Region: sram
+# ** Error (suppressible): sram.sv(27): (vopt-7063) Failed to find 'get_inst_coverage' in hierarchical name 'get_inst_coverage'.
+#         Region: sram
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:01:16 on Jan 02,2026
+# vlog -reportprogress 300 sram.sv "+acc" 
+# -- Compiling module sram
+# 
+# Top level modules:
+# 	sram
+# End time: 15:01:16 on Jan 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sram 
+# Start time: 15:00:37 on Jan 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: sram.sv(27): (vopt-2123) Missing argument for format specification '%d'.
+# ** Error: sram.sv(27): (vopt-2123) Missing argument for format specification '%d'.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:01:53 on Jan 02,2026
+# vlog -reportprogress 300 sram.sv "+acc" 
+# -- Compiling module sram
+# 
+# Top level modules:
+# 	sram
+# End time: 15:01:53 on Jan 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sram 
+# Start time: 15:00:37 on Jan 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.sram(fast)
+# data_in= 36 addr= 1 wre=1 rde=1
+# instance coverage=0.000000 covered=          0 total=        292
+# data_in= 13 addr=13 wre=1 rde=0
+# instance coverage=25.878906 covered=          4 total=        292
+# data_in=  1 addr=13 wre=0 rde=1
+# instance coverage=39.257813 covered=          7 total=        292
+# data_in=237 addr=12 wre=1 rde=0
+# instance coverage=51.855469 covered=          9 total=        292
+# data_in=197 addr=10 wre=1 rde=1
+# instance coverage=52.734375 covered=         11 total=        292
+# data_in= 18 addr=15 wre=0 rde=0
+# instance coverage=53.613281 covered=         13 total=        292
+# data_in=232 addr= 5 wre=0 rde=1
+# instance coverage=54.492188 covered=         15 total=        292
+# data_in= 45 addr= 5 wre=1 rde=0
+# instance coverage=55.371094 covered=         17 total=        292
+# data_in=128 addr= 0 wre=0 rde=1
+# instance coverage=55.468750 covered=         18 total=        292
+# data_in=150 addr=19 wre=1 rde=1
+# instance coverage=56.347656 covered=         20 total=        292
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:02:59 on Jan 02,2026
+# vlog -reportprogress 300 sram.sv "+acc" 
+# -- Compiling module sram
+# 
+# Top level modules:
+# 	sram
+# End time: 15:02:59 on Jan 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:03:01 on Jan 02,2026, Elapsed time: 0:02:24
+# Errors: 5, Warnings: 0
+# vsim sram 
+# Start time: 15:03:01 on Jan 02,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram(fast)
+# data_in= 36 addr= 1 wre=1 rde=1
+# data_in= 13 addr=13 wre=1 rde=0
+# data_in=  1 addr=13 wre=0 rde=1
+# data_in=237 addr=12 wre=1 rde=0
+# data_in=197 addr=10 wre=1 rde=1
+# data_in= 18 addr=15 wre=0 rde=0
+# data_in=232 addr= 5 wre=0 rde=1
+# data_in= 45 addr= 5 wre=1 rde=0
+# data_in=128 addr= 0 wre=0 rde=1
+# data_in=150 addr=19 wre=1 rde=1
+# instance coverage=57.226563 covered=         22 total=        292
+q
+# End time: 15:04:32 on Jan 02,2026, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 0
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:00:53 on Jan 21,2026
+# vlog -reportprogress 300 sram.sv "+acc" 
+# -- Compiling module sram
+# 
+# Top level modules:
+# 	sram
+# End time: 12:00:53 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sram 
+# Start time: 12:00:53 on Jan 21,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.sram(fast)
+# data_in= 36 addr= 1 wre=1 rde=1
+# data_in= 13 addr=13 wre=1 rde=0
+# data_in=  1 addr=13 wre=0 rde=1
+# data_in=237 addr=12 wre=1 rde=0
+# data_in=197 addr=10 wre=1 rde=1
+# data_in= 18 addr=15 wre=0 rde=0
+# data_in=232 addr= 5 wre=0 rde=1
+# data_in= 45 addr= 5 wre=1 rde=0
+# data_in=128 addr= 0 wre=0 rde=1
+# data_in=150 addr=19 wre=1 rde=1
+# instance coverage=57.226563 covered=         22 total=        292

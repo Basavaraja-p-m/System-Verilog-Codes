@@ -1,0 +1,243 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:10:19 on Nov 25,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:10:19 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 18:10:19 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Break key hit
+# Break in Module dut at dut.sv line 15
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:15:19 on Nov 25,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(15): (vlog-2110) Illegal reference to net "addr".
+# -- Compiling program tb
+# -- Compiling module top
+# End time: 18:15:19 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:15:19 on Nov 25,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(15): (vlog-2110) Illegal reference to net "addr".
+# -- Compiling program tb
+# -- Compiling module top
+# End time: 18:15:20 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:15:23 on Nov 25,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(15): (vlog-2110) Illegal reference to net "addr".
+# -- Compiling program tb
+# -- Compiling module top
+# End time: 18:15:24 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:16:17 on Nov 25,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:16:17 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:16:21 on Nov 25,2025, Elapsed time: 0:06:02
+# Errors: 12, Warnings: 0
+# vsim top 
+# Start time: 18:16:21 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Break key hit
+# Break in Module dut at dut.sv line 16
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:16:52 on Nov 25,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:16:52 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:16:54 on Nov 25,2025, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 18:16:54 on Nov 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Break key hit
+# Break in Module dut at dut.sv line 16
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:17:37 on Nov 25,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:17:37 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:17:40 on Nov 25,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 18:17:40 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Break key hit
+# Break in Module dut at dut.sv line 15
+
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:21:21 on Nov 25,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:21:21 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:21:22 on Nov 25,2025, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 18:21:23 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# clk=0,rst=0,wr_rd=x,data_in=  x,addr=x,data_out=  0,time=                   0
+# clk=1,rst=0,wr_rd=x,data_in=  x,addr=x,data_out=  0,time=                   5
+# clk=0,rst=0,wr_rd=x,data_in=  x,addr=x,data_out=  0,time=                  10
+# clk=1,rst=0,wr_rd=x,data_in=  x,addr=x,data_out=  0,time=                  15
+# clk=0,rst=1,wr_rd=1,data_in= 36,addr=1,data_out=  0,time=                  20
+# clk=1,rst=1,wr_rd=1,data_in= 36,addr=1,data_out=  0,time=                  25
+# clk=0,rst=1,wr_rd=1,data_in=  9,addr=3,data_out=  0,time=                  30
+# clk=1,rst=1,wr_rd=1,data_in=  9,addr=3,data_out=  0,time=                  35
+# clk=0,rst=1,wr_rd=1,data_in= 13,addr=5,data_out=  0,time=                  40
+# clk=1,rst=1,wr_rd=1,data_in= 13,addr=5,data_out=  0,time=                  45
+# clk=0,rst=1,wr_rd=1,data_in=101,addr=2,data_out=  0,time=                  50
+# clk=1,rst=1,wr_rd=1,data_in=101,addr=2,data_out=  0,time=                  55
+# clk=0,rst=1,wr_rd=1,data_in=  1,addr=5,data_out=  0,time=                  60
+# clk=1,rst=1,wr_rd=1,data_in=  1,addr=5,data_out=  0,time=                  65
+# clk=0,rst=1,wr_rd=1,data_in=118,addr=5,data_out=  0,time=                  70
+# clk=1,rst=1,wr_rd=1,data_in=118,addr=5,data_out=  0,time=                  75
+# clk=0,rst=1,wr_rd=1,data_in=237,addr=4,data_out=  0,time=                  80
+# clk=1,rst=1,wr_rd=1,data_in=237,addr=4,data_out=  0,time=                  85
+# clk=0,rst=1,wr_rd=1,data_in=249,addr=6,data_out=  0,time=                  90
+# clk=1,rst=1,wr_rd=1,data_in=249,addr=6,data_out=  0,time=                  95
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=5,data_out=  0,time=                 100
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=5,data_out=118,time=                 105
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=2,data_out=118,time=                 110
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=2,data_out=101,time=                 115
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=5,data_out=101,time=                 120
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=5,data_out=118,time=                 125
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=7,data_out=118,time=                 130
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=7,data_out=  0,time=                 135
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=2,data_out=  0,time=                 140
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=2,data_out=101,time=                 145
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=7,data_out=101,time=                 150
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=7,data_out=  0,time=                 155
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=2,data_out=  0,time=                 160
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=2,data_out=101,time=                 165
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=6,data_out=101,time=                 170
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 175
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 180
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 185
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 190
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 195
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 200
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 205
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 210
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 215
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 220
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 225
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 230
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 235
+# clk=0,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 240
+# clk=1,rst=1,wr_rd=0,data_in=249,addr=6,data_out=249,time=                 245
+# ** Note: $stop    : tb.sv(24)
+#    Time: 250 ns  Iteration: 2  Instance: /top/TB
+# Break in Module tb at tb.sv line 24
+quit -sim
+# End time: 18:21:48 on Nov 25,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0

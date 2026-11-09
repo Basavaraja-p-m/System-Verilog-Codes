@@ -1,0 +1,12 @@
+Start time: 16:33:14 on Jan 28,2026
+qverilog snippet.sv 
+-- Compiling package snippet_sv_unit
+** Error (suppressible): (qverilog-8688) snippet.sv(27): Illegal access to protected member a.
+        Full name of member: snippet_sv_unit::parent::a
+        Full name of calling scope: snippet_sv_unit::packet
+** Error (suppressible): (qverilog-8688) snippet.sv(27): Illegal access to protected member b.
+        Full name of member: snippet_sv_unit::parent::b
+        Full name of calling scope: snippet_sv_unit::packet
+-- Compiling module top
+End time: 16:33:14 on Jan 28,2026, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0

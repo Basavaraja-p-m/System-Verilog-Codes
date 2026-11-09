@@ -1,0 +1,2062 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:58:05 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# ** Error: ** while parsing file included at top.sv(6)
+# ** at bfm.sv(20): (vlog-2730) Undefined variable: 'i0'.
+# ** Error: ** while parsing file included at top.sv(6)
+# ** at bfm.sv(21): (vlog-2730) Undefined variable: 'i1'.
+# End time: 15:58:05 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:58:47 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:58:47 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 15:58:47 on Dec 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: generator.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:06:12 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# ** Error: ** while parsing file included at top.sv(5)
+# ** at driver.sv(9): (vlog-2730) Undefined variable: 'n'.
+# ** Error: ** while parsing file included at top.sv(6)
+# ** at bfm.sv(9): (vlog-2730) Undefined variable: 'n'.
+# ** Error: ** while parsing file included at top.sv(7)
+# ** at monitor.sv(9): (vlog-2730) Undefined variable: 'n'.
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at scoreboard.sv(10): (vlog-2730) Undefined variable: 'n'.
+# End time: 16:06:12 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:06:54 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:06:54 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:06:56 on Dec 26,2025, Elapsed time: 0:08:09
+# Errors: 7, Warnings: 2
+# vsim top 
+# Start time: 16:06:56 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: generator.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:11:34 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:11:34 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:11:35 on Dec 26,2025, Elapsed time: 0:04:39
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:11:35 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: generator.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:21:09 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(8)
+# ** at scoreboard.sv(25): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(8)
+# ** at scoreboard.sv(32): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(8)
+# ** at scoreboard.sv(39): near "endtask": syntax error, unexpected endtask.
+# ** Error: ** while parsing file included at top.sv(9)
+# ** at env.sv(7): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at top.sv(9)
+# ** at env.sv(13): Illegal declaration after the statement near line '7'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(9)
+# ** at env.sv(15): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at top.sv(9)
+# ** at env.sv(26): (vlog-2730) Undefined variable: 's1'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(9)
+# ** at env.sv(36): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(10)
+# ** at tb.sv(2): near ";": syntax error, unexpected ';', expecting '('.
+# ** while parsing file included at top.sv(10)
+# ** at tb.sv(7): Verilog Compiler exiting
+# End time: 16:21:09 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:21:31 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:21:31 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:21:32 on Dec 26,2025, Elapsed time: 0:09:57
+# Errors: 12, Warnings: 3
+# vsim top 
+# Start time: 16:21:32 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: tb.sv(11): (vopt-2880) Task "status" is being called in final procedure.
+# ** Warning: generator.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:21:58 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:21:58 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# pass=          4 fail=          0 trans=          4
+# End time: 16:21:59 on Dec 26,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 16:21:59 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:23:20 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:23:21 on Dec 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# pass=          4 fail=          0 trans=          4
+# End time: 16:23:22 on Dec 26,2025, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:23:22 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: tb.sv(11): (vopt-2880) Task "status" is being called in final procedure.
+# ** Warning: generator.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:27:36 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet.sv(13): (vlog-2730) Undefined variable: 'a'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet.sv(14): (vlog-2730) Undefined variable: 'b'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet.sv(15): (vlog-2730) Undefined variable: 'c'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet.sv(16): (vlog-2730) Undefined variable: 'd'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet.sv(19): (vlog-2730) Undefined variable: 'a'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet.sv(19): (vlog-2730) Undefined variable: 'b'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet.sv(19): (vlog-2730) Undefined variable: 'c'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet.sv(19): (vlog-2730) Undefined variable: 'd'.
+# End time: 16:27:36 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:27:57 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:27:57 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# pass=          4 fail=          0 trans=          4
+# End time: 16:27:58 on Dec 26,2025, Elapsed time: 0:04:36
+# Errors: 11, Warnings: 4
+# vsim top 
+# Start time: 16:27:59 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: tb.sv(11): (vopt-2880) Task "status" is being called in final procedure.
+# ** Warning: generator.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:28:12 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:28:12 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# pass=          6 fail=          0 trans=          6
+# End time: 16:28:13 on Dec 26,2025, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 16:28:13 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:28:57 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:28:57 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# pass=          6 fail=          0 trans=          6
+# End time: 16:28:58 on Dec 26,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:28:58 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: tb.sv(11): (vopt-2880) Task "status" is being called in final procedure.
+# ** Warning: generator.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:29:07 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:29:07 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# pass=          3 fail=          0 trans=          3
+# End time: 16:29:08 on Dec 26,2025, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 16:29:08 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:29:35 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:29:36 on Dec 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# pass=          3 fail=          0 trans=          3
+# End time: 16:29:37 on Dec 26,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:29:37 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: tb.sv(11): (vopt-2880) Task "status" is being called in final procedure.
+# ** Warning: generator.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:29:43 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:29:43 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# pass=          6 fail=          0 trans=          6
+# End time: 16:29:44 on Dec 26,2025, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 16:29:44 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:38:07 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:38:07 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# pass=          6 fail=          0 trans=          6
+# End time: 16:38:08 on Dec 26,2025, Elapsed time: 0:08:24
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:38:08 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: tb.sv(11): (vopt-2880) Task "status" is being called in final procedure.
+# ** Warning: generator.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:38:21 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:38:21 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# pass=          6 fail=          0 trans=          6
+# End time: 16:38:22 on Dec 26,2025, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 16:38:22 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:50:06 on Dec 26,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# -- Compiling program tb
+# ** Warning: tb.sv(11): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:50:07 on Dec 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# pass=          6 fail=          0 trans=          6
+# End time: 16:50:08 on Dec 26,2025, Elapsed time: 0:11:46
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 16:50:08 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: tb.sv(11): (vopt-2880) Task "status" is being called in final procedure.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=1 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM DRIVER
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# ======TEST PASSED======
+# name=BFM
+# i0=1 i1=0 s=0
+# y=1
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=1
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=1 i1=0 s=0
+# y=0
+# name=FROM GENERATOR
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM DRIVER
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=FROM MONITOR
+# i0=0 i1=0 s=0
+# y=0
+# ======TEST PASSED======
+# name=BFM
+# i0=0 i1=1 s=0
+# y=0
+# name=MONITOR
+# i0=0 i1=0 s=0
+# y=0
+q
+# pass=          6 fail=          0 trans=          6
+# End time: 16:50:23 on Dec 26,2025, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1

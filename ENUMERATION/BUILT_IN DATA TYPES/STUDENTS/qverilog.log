@@ -1,0 +1,60 @@
+Start time: 10:19:59 on Nov 28,2025
+qverilog STUDENT.sv 
+-- Compiling module STUDENT
+
+Top level modules:
+	STUDENT
+# vsim -lib work work.STUDENT -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.STUDENT(fast)
+# run -all
+# ==========================basu marks========================
+# the basu marks in kannada is 100
+# the basu marks in kannada is 100
+# the basu marks in english is 95
+# the basu marks in maths is 50
+# the basu marks in science is 85
+# the basu marks in social is 75
+# the basu marks in hindi is 90
+# =======================shshi marks==========================
+# the shashi marks in kannada is 100
+# the shashi marks in kannada is 100
+# the shashi marks in english is 95
+# the shashi marks in maths is 50
+# the shashi marks in science is 85
+# the shashi marks in social is 75
+# the shashi marks in hindi is 90
+# =======================gowri marks==========================
+# the shashi marks in kannada is 100
+# the gowri marks in kannada is 100
+# the gowri marks in english is 95
+# the gowri marks in maths is 50
+# the gowri marks in science is 85
+# the gowri marks in social is 75
+# the gowri marks in hindi is 90
+# =======================yashu marks==========================
+# the yashu marks in kannada is 100
+# the yashu marks in kannada is 100
+# the yashu marks in english is 95
+# the yashu marks in maths is 50
+# the yashu marks in science is 85
+# the yashu marks in social is 75
+# the yashu marks in hindi is 90
+#  quit -f
+# End time: 10:20:02 on Nov 28,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

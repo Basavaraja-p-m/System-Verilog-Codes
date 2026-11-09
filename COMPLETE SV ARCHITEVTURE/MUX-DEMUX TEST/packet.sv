@@ -1,0 +1,26 @@
+class packet;
+   rand bit [1:0]a;
+   rand bit s;
+        bit b;
+        bit [1:0]d;
+        
+        int e,f;
+
+        function void print(string name="");
+        $display("name=%s",name);
+        $display("MUX a=%b,s1=%b,b=%b",a,s,b);
+        $display("DEMUX c=%b,s2=%b,d=%b",b,s,d);
+        endfunction
+
+      //  constraint c1{a!=e || s1!=f;}
+
+       /* function void post_randomize();
+        e=a;
+        f=s1;
+        endfunction */
+
+endclass
+
+        
+
+

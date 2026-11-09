@@ -1,0 +1,332 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:37:01 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at packet1.sv(10): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at packet1.sv(14): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at packet1.sv(21): Illegal declaration after the statement near line '18'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at packet1.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet2.sv(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at packet2.sv(10): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at packet2.sv(14): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error (suppressible): ** while parsing file included at top.sv(3)
+# ** at packet2.sv(2): (vlog-2388) 'p2' already declared in this scope (gen).
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at packet2.sv(21): Illegal declaration after the statement near line '18'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at packet2.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) top.sv(7): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) top.sv(8): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: top.sv(9): Illegal use of 'automatic' for variable declaration (m3).
+# ** Error: top.sv(11): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: top.sv(16): (vlog-2730) Undefined variable: 'b1'.
+# ** Error: top.sv(16): Illegal use of 'automatic' for variable declaration (b1).
+# top.sv(16): Verilog Compiler exiting
+# End time: 20:37:01 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:37:45 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at packet1.sv(21): near "(": syntax error, unexpected '('.
+# End time: 20:37:45 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:38:23 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at packet2.sv(21): near "(": syntax error, unexpected '('.
+# End time: 20:38:23 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:38:42 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: packet1.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: packet2.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Error: packet2.sv(22): Number of actuals and formals does not match in function call.
+# -- Compiling module top
+# ** Error: packet2.sv(22): Number of actuals and formals does not match in function call.
+# End time: 20:38:42 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:39:54 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Error: packet2.sv(22): Number of actuals and formals does not match in function call.
+# -- Compiling module top
+# ** Error: packet2.sv(22): Number of actuals and formals does not match in function call.
+# End time: 20:39:54 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:44:49 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Error: packet2.sv(22): Number of actuals and formals does not match in function call.
+# -- Compiling module top
+# ** Error: packet2.sv(22): Number of actuals and formals does not match in function call.
+# ** Error (suppressible): (vlog-13276) top.sv(21): Could not find field/method name (dri) in 'p2' of 'b2.p2.dri'.
+# End time: 20:44:49 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:45:36 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:45:36 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 20:45:36 on Dec 23,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from gen
+# a=-508191502
+# name=from dri
+# a=-508191502
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:46:13 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:46:14 on Dec 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 20:46:17 on Dec 23,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 20:46:17 on Dec 23,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from gen
+# a=-508191502
+# name=from dri
+# a=-508191502
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:03:07 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at packet2.sv(12): near "m22": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 21:03:08 on Dec 23,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:03:24 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# ** Error: top.sv(16): (vlog-13266) No actual value has been specified for a formal argument 'd' that does not have a default value.
+# ** Error: top.sv(16): (vlog-13265) Number of actuals and formals does not match in function call.
+# ** Error: top.sv(17): (vlog-13266) No actual value has been specified for a formal argument 'b' that does not have a default value.
+# ** Error: top.sv(17): (vlog-13265) Number of actuals and formals does not match in function call.
+# End time: 21:03:24 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:04:22 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:04:22 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:04:23 on Dec 23,2025, Elapsed time: 0:18:06
+# Errors: 11, Warnings: 0
+# vsim top 
+# Start time: 21:04:23 on Dec 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): packet1.sv(12): (vopt-7063) Failed to find 'p2' in hierarchical name '$root.p2.s'.
+#         Region: top_sv_unit
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:04:48 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:04:48 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 21:04:23 on Dec 23,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Error: (vsim-7065) Illegal assignment to class work.top_sv_unit::packet from type String
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit File: packet2.sv Line: 12
+# ** Error: (vsim-7065) Illegal assignment to type String from class work.top_sv_unit::packet
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit File: packet1.sv Line: 11
+# ** Error: (vsim-8754) Actual output arg. of type 'string' for formal 'message' of 'get' is not compatible with the formal's type 'class work.top_sv_unit::packet'.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit File: packet1.sv Line: 11
+# ** Error: (vsim-8754) Actual input arg. of type 'string' for formal 'message' of 'put' is not compatible with the formal's type 'class work.top_sv_unit::packet'.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit File: packet2.sv Line: 12
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:06:45 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:06:45 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 21:04:23 on Dec 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from gen
+# a=-508191502
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /top/#FORK#21_4f604f87 File: C:/questasim64_10.7c/win64/../verilog_src/std/std.sv
+# Fatal error in Task std/mailbox::get at C:/questasim64_10.7c/win64/../verilog_src/std/std.sv line 41
+# 
+# HDL call sequence:
+# Stopped at C:/questasim64_10.7c/win64/../verilog_src/std/std.sv 41 Task std/mailbox::get
+# called from  packet1.sv 11 Task top_sv_unit/packet1::gen
+# called from  top.sv 21  
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:10:52 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:10:52 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:10:53 on Dec 23,2025, Elapsed time: 0:06:30
+# Errors: 7, Warnings: 0
+# vsim top 
+# Start time: 21:10:53 on Dec 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from gen
+# a=-508191502
+# name=from dri
+# a=-508191502
+# -------packet recieved------
+# -------packet recieved------
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:11:54 on Dec 23,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:11:54 on Dec 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:11:55 on Dec 23,2025, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 21:11:55 on Dec 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from gen
+# a=-508191502
+# name=from dri
+# a=-508191502
+# -------packet recieved------
+q
+# End time: 21:12:27 on Dec 23,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0

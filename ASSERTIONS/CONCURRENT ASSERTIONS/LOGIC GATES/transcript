@@ -1,0 +1,683 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:00:03 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at tb.sv(24): near "&&": syntax error, unexpected &&.
+# End time: 16:00:03 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:05:04 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(90): 'anot1' already exists - must not be redefined.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(90): 'anot1' already declared in this scope
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(91): 'anot1' already exists - must not be redefined.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(91): 'anot1' already declared in this scope
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(92): 'anot1' already exists - must not be redefined.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(92): 'anot1' already declared in this scope
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(93): 'anot1' already exists - must not be redefined.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(93): 'anot1' already declared in this scope
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(94): 'anot1' already exists - must not be redefined.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(94): 'anot1' already declared in this scope
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(95): 'anot1' already exists - must not be redefined.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(95): 'anot1' already declared in this scope
+# -- Compiling module top
+# End time: 16:05:04 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:06:43 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(49): (vlog-2730) Undefined variable: 'rst'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(48): (vlog-2730) Undefined variable: 'clk'.
+# ** while parsing file included at top.sv(3)
+# ** at tb.sv(97): Verilog Compiler exiting
+# End time: 16:06:43 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:07:34 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(48): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(54): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(60): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(66): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(72): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(78): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(84): (vlog-2730) Undefined variable: 'clk'.
+# ** Error (suppressible): ** while parsing file included at top.sv(3)
+# ** at tb.sv(89): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error (suppressible): ** while parsing file included at top.sv(3)
+# ** at tb.sv(90): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error (suppressible): ** while parsing file included at top.sv(3)
+# ** at tb.sv(91): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error (suppressible): ** while parsing file included at top.sv(3)
+# ** at tb.sv(92): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error (suppressible): ** while parsing file included at top.sv(3)
+# ** at tb.sv(93): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error (suppressible): ** while parsing file included at top.sv(3)
+# ** at tb.sv(94): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error (suppressible): ** while parsing file included at top.sv(3)
+# ** at tb.sv(95): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(48): (vlog-2730) Undefined variable: 'clk'.
+# -- Compiling module top
+# End time: 16:07:34 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:08:28 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:08:28 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:08:28 on Jan 06,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apor1 File: tb.sv Line: 91 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: ~i.xnor1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: ~i.xnor1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: ~i.a==i.not1
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: ~i.a==i.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Note: implicit $finish from program    : tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+add wave /top/TB/apnot1 /top/TB/apand1 /top/TB/apor1 /top/TB/apnand1 /top/TB/apnor1 /top/TB/apxor1 /top/TB/apxnor1
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+run
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apor1 File: tb.sv Line: 91 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: ~i.xnor1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: ~i.xnor1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: ~i.a==i.not1
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: ~i.a==i.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Note: implicit $finish from program    : tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+run
+# ** Note: $stop    : top.sv(21)
+#    Time: 130 ns  Iteration: 0  Instance: /top
+# Break in Module top at top.sv line 21
+# Causality operation skipped due to absence of debug database file
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:15:40 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:15:40 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:15:41 on Jan 06,2026, Elapsed time: 0:07:13
+# Errors: 36, Warnings: 1
+# vsim -assertdebug top 
+# Start time: 16:15:41 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: ~i.a==i.not1
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: ~i.a==i.not1
+# ** Note: implicit $finish from program    : tb.sv(7)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+add wave /top/TB/apnot1
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: ~i.a==i.not1
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: ~i.a==i.not1
+# ** Note: implicit $finish from program    : tb.sv(7)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+run
+# ** Note: $stop    : top.sv(21)
+#    Time: 130 ns  Iteration: 0  Instance: /top
+# Break in Module top at top.sv line 21
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:17:42 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:17:42 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:17:43 on Jan 06,2026, Elapsed time: 0:02:02
+# Errors: 2, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:17:43 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Note: implicit $finish from program    : tb.sv(7)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+add wave /top/TB/apnot1
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Note: implicit $finish from program    : tb.sv(7)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:18:54 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:18:54 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:18:55 on Jan 06,2026, Elapsed time: 0:01:12
+# Errors: 2, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:18:55 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Note: implicit $finish from program    : tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+add wave /top/TB/apand1
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+run
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Note: implicit $finish from program    : tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:20:21 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:20:21 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:20:22 on Jan 06,2026, Elapsed time: 0:01:27
+# Errors: 5, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:20:22 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apor1 File: tb.sv Line: 91 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: ~i.xnor1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: ~i.xnor1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Note: implicit $finish from program    : tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+add wave /top/TB/apnot1 /top/TB/apand1 /top/TB/apor1 /top/TB/apnand1 /top/TB/apnor1 /top/TB/apxor1 /top/TB/apxnor1
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+run
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: top.TB.apor1 File: tb.sv Line: 91 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: ~i.xnor1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: ~i.xnor1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: ~i.and1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apxnor1 File: tb.sv Line: 95 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.a!=i.b
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.TB.apand1 File: tb.sv Line: 90 Expr: i.a!=i.b
+# ** Note: implicit $finish from program    : tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:24:52 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:24:52 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:24:53 on Jan 06,2026, Elapsed time: 0:04:31
+# Errors: 21, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:24:53 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Note: implicit $finish from program    : tb.sv(7)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+add wave /top/TB/apnot1 /top/TB/apand1 /top/TB/apor1 /top/TB/apnand1 /top/TB/apnor1 /top/TB/apxor1 /top/TB/apxnor1
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+run
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Note: implicit $finish from program    : tb.sv(7)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:28:14 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:28:14 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:28:15 on Jan 06,2026, Elapsed time: 0:03:22
+# Errors: 3, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:28:15 on Jan 06,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Error: (vish-4014) No objects found matching '/top/TB/a1'.
+# (vish-4014) No objects found matching '/top/TB/a2'.
+# (vish-4014) No objects found matching '/top/TB/a3'.
+# (vish-4014) No objects found matching '/top/TB/a4'.
+# (vish-4014) No objects found matching '/top/TB/a5'.
+# (vish-4014) No objects found matching '/top/TB/a6'.
+# (vish-4014) No objects found matching '/top/TB/a7'.
+# Error in macro ./run.do line 5
+# (vish-4014) No objects found matching '/top/TB/a1'.
+# (vish-4014) No objects found matching '/top/TB/a2'.
+# (vish-4014) No objects found matching '/top/TB/a3'.
+# (vish-4014) No objects found matching '/top/TB/a4'.
+# (vish-4014) No objects found matching '/top/TB/a5'.
+# (vish-4014) No objects found matching '/top/TB/a6'.
+# (vish-4014) No objects found matching '/top/TB/a7'.
+#     while executing
+# "add wave /top/TB/a1 /top/TB/a2 /top/TB/a3 /top/TB/a4 /top/TB/a5 /top/TB/a6 /top/TB/a7"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:29:16 on Jan 06,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:29:16 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:29:17 on Jan 06,2026, Elapsed time: 0:01:02
+# Errors: 3, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:29:17 on Jan 06,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apxor1 File: tb.sv Line: 94 Expr: i.xor1
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apnand1 File: tb.sv Line: 92 Expr: i.nand1
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.TB.apnot1 File: tb.sv Line: 89 Expr: i.a!=i.not1
+# ** Note: implicit $finish from program    : tb.sv(7)
+#    Time: 100 ns  Iteration: 1  Instance: /top/TB
+# 1
+# Simulation stop requested.
+q
+# End time: 16:35:12 on Jan 06,2026, Elapsed time: 0:05:55
+# Errors: 3, Warnings: 0

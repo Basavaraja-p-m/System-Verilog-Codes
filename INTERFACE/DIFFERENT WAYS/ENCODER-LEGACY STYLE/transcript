@@ -1,0 +1,151 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:08:03 on Nov 17,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error (suppressible): dut.sv(4): (vlog-10008) Too many indices (1) for array type y (dimensionality 0).
+# ** Error (suppressible): dut.sv(5): (vlog-10008) Too many indices (1) for array type y (dimensionality 0).
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(5): (vlog-2884) Bit-select into 'y' is out of bounds.
+# -- Compiling program tb
+# -- Compiling module top
+# End time: 12:08:03 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:08:51 on Nov 17,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:08:51 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:08:51 on Nov 17,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=0001,y=00
+# ====TEST PASSED====
+# a=0010,y=01
+# ====TEST PASSED====
+# a=0100,y=10
+# ====TEST PASSED====
+# a=1000,y=11
+# ====TEST PASSED====
+# a=0000,y=00
+# ====TEST FAILED====
+# a=0000,y=00
+# ====TEST FAILED====
+# ** Note: implicit $finish from program    : C:/questasim64_10.7c/examples/SYSTEM VERILOG/INTERFACE/ENCODER/tb.sv(37)
+#    Time: 60 ns  Iteration: 0  Instance: /top/t
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:11:31 on Nov 17,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:11:31 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:11:33 on Nov 17,2025, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:11:33 on Nov 17,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=0001,y=00
+# ====TEST PASSED====
+# a=0010,y=01
+# ====TEST PASSED====
+# a=0100,y=10
+# ====TEST PASSED====
+# a=1000,y=11
+# ====TEST PASSED====
+# a=0000,y=00
+# ====TEST FAILED====
+# a=0000,y=00
+# ====TEST FAILED====
+# ** Note: implicit $finish from program    : C:/questasim64_10.7c/examples/SYSTEM VERILOG/INTERFACE/ENCODER/tb.sv(37)
+#    Time: 60 ns  Iteration: 0  Instance: /top/t
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:12:01 on Nov 17,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:12:02 on Nov 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:12:04 on Nov 17,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:12:04 on Nov 17,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=0001,y=00
+# ====TEST PASSED====
+# a=0010,y=01
+# ====TEST PASSED====
+# a=0100,y=10
+# ====TEST PASSED====
+# a=1000,y=11
+# ====TEST PASSED====
+# a=0000,y=00
+# ====TEST FAILED====
+# a=0000,y=00
+# ====TEST FAILED====
+# ** Note: implicit $finish from program    : C:/questasim64_10.7c/examples/SYSTEM VERILOG/INTERFACE/ENCODER/tb.sv(37)
+#    Time: 60 ns  Iteration: 0  Instance: /top/t
+# 1
+# Simulation stop requested.
+quit -sim
+# End time: 12:12:26 on Nov 17,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0

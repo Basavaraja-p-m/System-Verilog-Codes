@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/MAIL_BOX/MONITOR_1
+T_opt
+!s110 1765950228
+V?H^3f9]Cbk?3fZlY71=MX2
+04 3 4 work top fast 0
+=1-84144d0ea3d5-69424313-36f-1e0c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtop
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+DXx4 work 11 top_sv_unit 0 22 46LYS48bknR[B;VTLZka42
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 fBdJg0;RFlVnMKSS9T`]72
+IhaU6<=8H>SDon5_i[o^lM1
+!s105 top_sv_unit
+S1
+R0
+w1765950153
+Z3 8top.sv
+Z4 Ftop.sv
+L0 5
+Z5 OL;L;10.7c;67
+31
+Z6 !s108 1765950226.000000
+Z7 !s107 scoreboard.sv|monitor2.sv|monitor1.sv|packet.sv|top.sv|
+Z8 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xtop_sv_unit
+R2
+V46LYS48bknR[B;VTLZka42
+r1
+!s85 0
+!i10b 1
+!s100 C`[9UACR5[9GJ`JSXgVTU1
+I46LYS48bknR[B;VTLZka42
+!i103 1
+S1
+R0
+w1765950223
+R3
+R4
+Fpacket.sv
+Fmonitor1.sv
+Fmonitor2.sv
+Fscoreboard.sv
+L0 1
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

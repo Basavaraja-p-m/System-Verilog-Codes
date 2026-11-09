@@ -1,0 +1,54 @@
+Start time: 15:57:29 on May 01,2026
+qverilog snippet.sv 
+-- Compiling module snippet
+
+Top level modules:
+	snippet
+# vsim -lib work work.snippet -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# run -all
+# the elements is '{1, 2, 3, 4, 5, 6, 7, 8}
+# the find elements is '{2, 4, 6, 8}
+# the find_first element is '{2}
+# the find_last element is '{8}
+# the min value element is '{1}
+# the max value element is '{8}
+# the unique value element is '{1, 2, 3, 4, 5, 6, 7, 8}
+# the no of element in d_array is 4
+# the find elements is '{0, 1, 2, 3}
+# the find_first element is '{0}
+# the find_last element is '{3}
+# the unique value element is '{2, 4, 6, 8}
+# the no of element in a_array is 4
+# the equal value in index and element is '{}
+# the element value is greater than index '{0, 1, 2, 4}
+# the equal value in index and element is '{}
+# the no of element in a_array is 4
+# the sorting of elements in ascending order '{20, 30, 40, 50}
+# the sorting of elements in decending order '{50, 40, 30, 20}
+# the reverse of element in a_array is '{20, 30, 40, 50}
+# the shuffle of elements in a_array is '{30, 20, 50, 40}
+# the and bitwise value is 0
+# the or bitwise value is 7
+# the xor bitwise value is 4
+# the sum value is 10
+# the prodoct value is 24
+#  quit -f
+# End time: 15:57:31 on May 01,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

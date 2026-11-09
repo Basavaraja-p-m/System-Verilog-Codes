@@ -1,0 +1,315 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:58:26 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at monitor1.sv(10): near "endtask": syntax error, unexpected endtask, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at monitor1.sv(14): near "endclass": syntax error, unexpected endclass.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at monitor2.sv(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(4)
+# ** at scoreboard.sv(14): near "else": syntax error, unexpected else.
+# End time: 10:58:26 on Dec 17,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:59:32 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(4)
+# ** at scoreboard.sv(14): near "else": syntax error, unexpected else.
+# End time: 10:59:32 on Dec 17,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:00:00 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: monitor1.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:00:01 on Dec 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 11:00:01 on Dec 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: monitor1.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from the generator1
+# i= -949817967 s=-1134256921
+# name=from the generator2
+# i=-1136687821 s=-1015548076
+# simulation failed
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:02:37 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: monitor1.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:02:37 on Dec 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 11:02:41 on Dec 17,2025, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 11:02:41 on Dec 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: monitor1.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Error: (vsim-3567) top.sv(24): No field named 'display'.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: top.sv
+# ** Error: (vsim-3567) top.sv(25): No field named 'display'.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: top.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:04:59 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: monitor1.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:04:59 on Dec 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 11:02:41 on Dec 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: monitor1.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: monitor2.sv(7): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from the generator1
+# i= -949817967 s=-1134256921
+# name=from the generator2
+# i=-1136687821 s=-1015548076
+# name=from p3
+# i= -949817967 s=-1134256921
+# name=from p4
+# i=-1136687821 s=-1015548076
+# simulation failed
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:06:07 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:06:07 on Dec 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:06:07 on Dec 17,2025, Elapsed time: 0:03:26
+# Errors: 2, Warnings: 4
+# vsim top 
+# Start time: 11:06:08 on Dec 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from the generator1
+# i=3345149329 s=3160710375
+# name=from the generator2
+# i=3158279475 s=3279419220
+# name=from p3
+# i=3345149329 s=3160710375
+# name=from p4
+# i=3158279475 s=3279419220
+# simulation failed
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:09:49 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:09:49 on Dec 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:09:50 on Dec 17,2025, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 11:09:50 on Dec 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from the generator1
+# i=3685432182 s=1250276124
+# name=from the generator2
+# i= 213215715 s=3490178362
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:12:37 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:12:37 on Dec 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:12:38 on Dec 17,2025, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 11:12:38 on Dec 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from the generator1
+# i= 329205668 s= 372132332
+# name=from the generator1
+# i=2670028409 s=3649664051
+# name=from the generator1
+# i= 271270324 s=3433265512
+# name=from the generator1
+# i= 258195147 s= 858785009
+# name=from the generator1
+# i= 404336101 s= 977077808
+# name=from the generator2
+# i=3983172669 s=2855142153
+# name=from the generator2
+# i=3378756995 s=  72097840
+# name=from the generator2
+# i=2397306479 s=1679314790
+# name=from the generator2
+# i=3834426542 s=  53499813
+# name=from the generator2
+# i=3034669878 s=4265418294
+# name=from p3
+# i= 404336101 s= 977077808
+# name=from p4
+# i=3034669878 s=4265418294
+# simulation failed
+# name=from p3
+# i= 404336101 s= 977077808
+# name=from p4
+# i=3034669878 s=4265418294
+# simulation failed
+# name=from p3
+# i= 404336101 s= 977077808
+# name=from p4
+# i=3034669878 s=4265418294
+# simulation failed
+# name=from p3
+# i= 404336101 s= 977077808
+# name=from p4
+# i=3034669878 s=4265418294
+# simulation failed
+# name=from p3
+# i= 404336101 s= 977077808
+# name=from p4
+# i=3034669878 s=4265418294
+# simulation failed
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:13:46 on Dec 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:13:46 on Dec 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:13:47 on Dec 17,2025, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 11:13:47 on Dec 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# name=from the generator1
+# i= 329205668 s= 372132332
+# name=from the generator2
+# i=3983172669 s=2855142153
+# name=from p3
+# i= 329205668 s= 372132332
+# name=from p4
+# i=3983172669 s=2855142153
+# simulation failed
+# name=from the generator1
+# i=2670028409 s=3649664051
+# name=from the generator2
+# i=3378756995 s=  72097840
+# name=from p3
+# i=2670028409 s=3649664051
+# name=from p4
+# i=3378756995 s=  72097840
+# simulation failed
+# name=from the generator1
+# i= 271270324 s=3433265512
+# name=from the generator2
+# i=2397306479 s=1679314790
+# name=from p3
+# i= 271270324 s=3433265512
+# name=from p4
+# i=2397306479 s=1679314790
+# simulation failed
+# name=from the generator1
+# i= 258195147 s= 858785009
+# name=from the generator2
+# i=3834426542 s=  53499813
+# name=from p3
+# i= 258195147 s= 858785009
+# name=from p4
+# i=3834426542 s=  53499813
+# simulation failed
+# name=from the generator1
+# i= 404336101 s= 977077808
+# name=from the generator2
+# i=3034669878 s=4265418294
+# name=from p3
+# i= 404336101 s= 977077808
+# name=from p4
+# i=3034669878 s=4265418294
+# simulation failed
+q
+# End time: 11:14:43 on Dec 17,2025, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0

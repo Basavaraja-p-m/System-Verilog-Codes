@@ -1,0 +1,187 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/raksh/OneDrive/Documents/NOTES/UART PROJECT/TOP REC
+T_opt
+!s110 1743602475
+Vc;5]o>3?;I77k^BCoG30N2
+04 6 4 work top_tb fast 0
+=1-189341d3d830-67ed432b-d6-151c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vfifo
+Z2 !s110 1743602474
+!i10b 1
+!s100 >Id2BY?hf?XddGzJKVG2D0
+IJCGY;DegBQVS2KblU5VUb1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742277425
+8fifo.v
+Ffifo.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1743602474.000000
+Z6 !s107 rec.v|fifo.v|uart_rec_top.v|uart_txd_dut.v|fifo_dut.v|uart_txd_fifo_dut.v|top.v|top_tb.v|
+Z7 !s90 -reportprogress|300|top_tb.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfifo_dut
+R2
+!i10b 1
+!s100 i3BRXL[WiKL9[C<R?^NX<2
+IYNc_gP]DnaT6SJ_H_[N>P0
+R3
+R0
+w1742277426
+8fifo_dut.v
+Ffifo_dut.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vrec
+R2
+!i10b 1
+!s100 3N];oHl:?=dPPa4zPJ>_o0
+II51ll:PS^Q:b4QC>Y?f391
+R3
+R0
+w1742277428
+8rec.v
+Frec.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vtop
+R2
+!i10b 1
+!s100 686<D^65LeQ[G_dgUUn0I3
+I?17L^Dk0KiBYH<X1b>H<M1
+R3
+R0
+w1742277435
+8top.v
+Ftop.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vtop_tb
+R2
+!i10b 1
+!s100 L9oQjO;_<0^CKGTl3IfLP1
+IP_eWzLKmbF5^T>o35]8<l1
+R3
+R0
+w1742277440
+8top_tb.v
+Ftop_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vuart_rec_top
+R2
+!i10b 1
+!s100 zHK2oNfDChE0B9TGZQkGh0
+I6dE204XhO<An0Lg4VHT:j3
+R3
+R0
+w1742277443
+8uart_rec_top.v
+Fuart_rec_top.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vuart_txd
+R2
+!i10b 1
+!s100 76eO;:z:Yec:Sz<8jOYLf2
+Ih9OVn<SJ_@0ogdXbFWYkl2
+R3
+R0
+w1742277445
+8uart_txd_dut.v
+Fuart_txd_dut.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vuart_txd_fifo_dut
+R2
+!i10b 1
+!s100 NML8:Jj3Nc9@<Eo0mIQf<0
+I?n0?]GeUMi>EKl>K;QN<00
+R3
+R0
+w1742277450
+8uart_txd_fifo_dut.v
+Fuart_txd_fifo_dut.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1

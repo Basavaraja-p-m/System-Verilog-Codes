@@ -1,0 +1,402 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:44:33 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:44:33 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:44:33 on Dec 31,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:46:36 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# ** Error: (vlog-13069) snippet.sv(5): near "[=": syntax error, unexpected [= , expecting ';'.
+# ** Error: snippet.sv(11): (vlog-2730) Undefined variable: 'c1'.
+# End time: 10:46:36 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog snippet.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:47:00 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:47:00 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:47:02 on Dec 31,2025, Elapsed time: 0:02:29
+# Errors: 5, Warnings: 0
+# vsim snippet 
+# Start time: 10:47:02 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:47:47 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:47:47 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:47:49 on Dec 31,2025, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:47:49 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:49:28 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:49:28 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:49:30 on Dec 31,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:49:30 on Dec 31,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:49:55 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:49:55 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:49:56 on Dec 31,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:49:56 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:51:26 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:51:27 on Dec 31,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 10:51:28 on Dec 31,2025, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:51:28 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:53:00 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:53:00 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:53:01 on Dec 31,2025, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:53:01 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+# a= 6
+# a=13
+# a=13
+# a=12
+# a= 9
+# a= 6
+# a= 5
+# a=10
+# a= 5
+# a= 7
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:53:44 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:53:44 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:53:45 on Dec 31,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:53:45 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+# a= 6
+# a=13
+# a=13
+# a=12
+# a= 9
+# a= 6
+# a= 5
+# a=10
+# a= 5
+# a= 7
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:54:16 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:54:16 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:54:17 on Dec 31,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:54:17 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+# a= 6
+# a=13
+# a=13
+# a=12
+# a= 9
+# a= 6
+# a= 5
+# a=10
+# a= 5
+# a= 7
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:54:58 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:54:58 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:54:59 on Dec 31,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:54:59 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+# a= 6
+# a=13
+# a=13
+# a=12
+# a= 9
+# a= 6
+# a= 5
+# a=10
+# a= 5
+# a= 7
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:57:53 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:57:53 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:57:54 on Dec 31,2025, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 0
+# vsim snippet 
+# Start time: 10:57:54 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# ** Fatal: (vsim-8568) Unbounded or undetermined varying length sequences formed using Repetitive/Consecutive operators are not allowed in unsized Array Transition bins. A transition item in bin 'b1' of Coverpoint 'aa' in Covergroup instance '\/snippet/c1 ' has an operator of kind '[= ]'. Please fix it.
+#    Time: 0 ns  Iteration: 0  Process: /snippet/#INITIAL#9 File: snippet.sv
+# Fatal error in Function new at snippet.sv line 4
+# 
+# HDL call sequence:
+# Stopped at snippet.sv 4 Function new
+# called from  snippet.sv 11 Module snippet
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:58:10 on Dec 31,2025
+# vlog -reportprogress 300 snippet.sv "+acc" 
+# -- Compiling module snippet
+# 
+# Top level modules:
+# 	snippet
+# End time: 10:58:10 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:58:11 on Dec 31,2025, Elapsed time: 0:00:17
+# Errors: 2, Warnings: 0
+# vsim snippet 
+# Start time: 10:58:11 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# a= 4
+# a= 1
+# a= 9
+# a= 3
+# a=13
+# a=13
+# a= 5
+# a= 2
+# a= 1
+# a=13
+# a= 6
+# a=13
+# a=13
+# a=12
+# a= 9
+# a= 6
+# a= 5
+# a=10
+# a= 5
+# a= 7

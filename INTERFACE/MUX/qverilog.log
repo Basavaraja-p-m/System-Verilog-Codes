@@ -1,0 +1,17 @@
+Start time: 15:35:50 on Nov 14,2025
+qverilog TOP.sv 
+-- Compiling interface inter
+-- Compiling module MUX
+-- Compiling module MUX_tb
+-- Compiling module TOP
+
+Top level modules:
+	TOP
+# vsim -lib work work.TOP -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: TOP.sv(11): Expected an interface instance as an actual for 't'.
+# ** Error: TOP.sv(9): Expected an interface instance as an actual for 'd'.
+# Optimization failed
+# Error loading design
+# End time: 15:35:58 on Nov 14,2025, Elapsed time: 0:00:08
+# Errors: 2, Warnings: 0

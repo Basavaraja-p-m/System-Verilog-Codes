@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/CONSTRAINTS/CONSTRAINTS_ASSIGNMENT/Constrain a 4-bit vector to have exactly 2 bits set
+T_opt
+!s110 1783081264
+Vi[=f_O5Izjg0<z?CVJBkD0
+04 14 4 work packet_sv_unit fast 0
+04 3 4 work top fast 0
+=1-84144d0ea3d5-6a47a92f-3de-4140
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xpacket_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VmGhVfCgdzclS4DTl9iKn33
+r1
+!s85 0
+!i10b 1
+!s100 40KWi>iIIc6M=mU[en2P?3
+ImGhVfCgdzclS4DTl9iKn33
+!i103 1
+S1
+R0
+Z3 w1783081260
+Z4 8packet.sv
+Z5 Fpacket.sv
+L0 1
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1783081262.000000
+Z8 !s107 packet.sv|
+Z9 !s90 packet.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 14 packet_sv_unit 0 22 mGhVfCgdzclS4DTl9iKn33
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 iiEfS<C6LYSJ_5o5ZL]^z1
+IXUC7lZ`ibSVfFXkQ]EG8=2
+!s105 packet_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 7
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

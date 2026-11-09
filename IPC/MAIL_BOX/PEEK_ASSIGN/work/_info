@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/MAIL_BOX/PEEK_ASSIGN
+T_opt
+!s110 1766038427
+V0RNS5=YbRb3`C;j5=h7Dz1
+04 3 4 work top fast 0
+=1-84144d0ea3d5-69439b9b-b8-18a4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vtop
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+DXx4 work 11 top_sv_unit 0 22 :3?d6SFocjCzz:LiQ?3J10
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 ??N^@hDADXLb[WchiVd9?3
+IRX9SIb^i@_d>WVhaIIKg@1
+!s105 top_sv_unit
+S1
+R0
+w1766038384
+Z3 8top.sv
+Z4 Ftop.sv
+L0 5
+Z5 OL;L;10.7c;67
+31
+Z6 !s108 1766385668.000000
+!s107 driver.sv|generator.sv|packet.sv|top.sv|
+Z7 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xtop_sv_unit
+R2
+V:3?d6SFocjCzz:LiQ?3J10
+r1
+!s85 0
+!i10b 1
+!s100 mbIiIUSOEGARF=hIi:iGZ0
+I:3?d6SFocjCzz:LiQ?3J10
+!i103 1
+S1
+R0
+w1766038422
+R3
+R4
+Fpacket.sv
+Fgenerator.sv
+Fdriver.sv
+L0 1
+R5
+31
+R6
+Z9 !s107 driver.sv|generator.sv|packet.sv|top.sv|
+R7
+!i113 0
+R8
+R1

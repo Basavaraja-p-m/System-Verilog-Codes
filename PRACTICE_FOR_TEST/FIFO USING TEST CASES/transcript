@@ -1,0 +1,252 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:52:43 on Jan 28,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(60): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 10:52:44 on Jan 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim -assertdebug top 
+# Start time: 10:52:44 on Jan 28,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: generator.sv(60): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GEN
+# clk=0 rst=0 data_in= 48 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=30
+# name=FROM COVERAGE
+# clk=0 rst=0 data_in= 48 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=30
+# name=FROM GEN
+# clk=0 rst=0 data_in= 43 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=40
+# name=FROM COVERAGE
+# clk=0 rst=0 data_in= 43 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=40
+# name=FROM DRIVER
+# clk=0 rst=0 data_in= 43 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=45
+# name=FROM GEN
+# clk=0 rst=1 data_in=  8 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=50
+# name=FROM BFM
+# clk=0 rst=1 data_in=  8 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=50
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=50
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in=  8 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=50
+# name=FROM DRIVER
+# clk=0 rst=1 data_in=  8 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=55
+# name=FROM GEN
+# clk=0 rst=1 data_in= 19 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=60
+# name=FROM BFM
+# clk=0 rst=1 data_in= 19 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=60
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=60
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 19 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=60
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 19 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=65
+# name=FROM GEN
+# clk=0 rst=1 data_in= 46 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=70
+# name=FROM BFM
+# clk=0 rst=1 data_in= 46 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=70
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=70
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 46 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=70
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 46 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=75
+# name=FROM GEN
+# clk=0 rst=1 data_in= 12 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=80
+# name=FROM BFM
+# clk=0 rst=1 data_in= 12 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=80
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=80
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 12 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=80
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 12 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=85
+# name=FROM GEN
+# clk=0 rst=1 data_in= 47 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=90
+# name=FROM BFM
+# clk=0 rst=1 data_in= 47 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=90
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=90
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 47 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=90
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 47 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=95
+# name=FROM GEN
+# clk=0 rst=1 data_in= 37 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=100
+# name=FROM BFM
+# clk=0 rst=1 data_in= 37 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=100
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=100
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 37 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=100
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 37 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=105
+# name=FROM GEN
+# clk=0 rst=1 data_in= 43 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=110
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=110
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=110
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=110
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=1 rd=0 data_out=  0 full=0 empty=0 Time=115
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out=  0 full=0 empty=0 Time=120
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out=  0 full=0 empty=0 Time=120
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=1 rd=0 data_out=  0 full=1 empty=0 Time=120
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out=  0 full=0 empty=0 Time=120
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out=  0 full=0 empty=0 Time=125
+# EMPTY
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=130
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=130
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=130
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=130
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=135
+# EMPTY
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out=  8 full=0 empty=0 Time=140
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out=  8 full=0 empty=0 Time=140
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out=  8 full=0 empty=0 Time=140
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out=  8 full=0 empty=0 Time=140
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out=  8 full=0 empty=0 Time=145
+# EMPTY
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 19 full=0 empty=0 Time=150
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 19 full=0 empty=0 Time=150
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 19 full=0 empty=0 Time=150
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 19 full=0 empty=0 Time=150
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 19 full=0 empty=0 Time=155
+# EMPTY
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 46 full=0 empty=0 Time=160
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 46 full=0 empty=0 Time=160
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 46 full=0 empty=0 Time=160
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 46 full=0 empty=0 Time=160
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 46 full=0 empty=0 Time=165
+# EMPTY
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 12 full=0 empty=0 Time=170
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 12 full=0 empty=0 Time=170
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 12 full=0 empty=0 Time=170
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 12 full=0 empty=0 Time=170
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 12 full=0 empty=0 Time=175
+# EMPTY
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 47 full=0 empty=0 Time=180
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 47 full=0 empty=0 Time=180
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 47 full=0 empty=0 Time=180
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 47 full=0 empty=0 Time=180
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 47 full=0 empty=0 Time=185
+# EMPTY
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 37 full=0 empty=0 Time=190
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 37 full=0 empty=0 Time=190
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 37 full=0 empty=0 Time=190
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 37 full=0 empty=0 Time=190
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 37 full=0 empty=0 Time=195
+# EMPTY
+# name=from gen
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=200
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=200
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 43 full=0 empty=1 Time=200
+# ========================TEST PASSED=====================
+# name=FROM COVERAGE
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=200
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=205
+# EMPTY
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=210
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 43 full=0 empty=1 Time=210
+# ========================TEST PASSED=====================
+# name=FROM DRIVER
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=215
+# name=FROM BFM
+# clk=0 rst=1 data_in= 43 wr=0 rd=1 data_out= 43 full=0 empty=0 Time=220
+# name=FROM MONITOR
+# clk=0 rst=0 data_in=  0 wr=0 rd=1 data_out= 43 full=0 empty=1 Time=220
+# ========================TEST PASSED=====================
+# ** Note: $stop    : top.sv(27)
+#    Time: 300 ns  Iteration: 0  Instance: /top
+# Break in Module top at top.sv line 27
+# End time: 11:15:11 on Jan 28,2026, Elapsed time: 0:22:27
+# Errors: 0, Warnings: 1

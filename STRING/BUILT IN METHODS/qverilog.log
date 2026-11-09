@@ -1,0 +1,46 @@
+Start time: 08:49:43 on Dec 01,2025
+qverilog snippet.sv 
+-- Compiling module snippet
+
+Top level modules:
+	snippet
+# vsim -lib work work.snippet -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.snippet(fast)
+# run -all
+# the str1 is ,the str2 is ,the str3 is 
+# the str1 is BASAVARAJ,the str2 is Basavaraj,the str3 is Basu
+# the length of the str1 BASAVARAJ is           9,str2 Basavaraj is           9,str3 Basu is           4
+# the length of str1 BASAVARAJ is           9
+# the insert letter in str1 BA-AVARAJ
+# the return letter in str2 v  118 
+# the upper case of str2 is BASAVARAJ
+# the lower case of str1 is ba-avaraj
+# the insert letter in str1 BAsAVARAJ is 
+# the taken part from BAsAVARAJ is BAsAVA
+# the comparison of str1 and str2 is         -32
+# the comparison of str1 and str2 is          32
+# the comparison of str3 and str4 is           0
+# BOTH ARE NOT IDENTICAL
+# str1 is greater than str2
+# the concatination of 3 string=BASAVARAJBASABasavaraj
+# the replication of 3 strings=BASAVARAJBASABasavarajBASAVARAJBASABasavarajBASAVARAJBASABasavaraj
+# the third caracter of strings=AAa
+#  quit -f
+# End time: 08:49:52 on Dec 01,2025, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

@@ -1,0 +1,18 @@
+Start time: 18:26:47 on May 01,2026
+qverilog snippet.sv 
+-- Compiling module snippet
+
+Top level modules:
+	snippet
+# vsim -lib work work.snippet -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Error: (vsim-7) Failed to open info file "C:/questasim64_10.7c/examples/SYSTEM VERILOG/SUBROUTINES/ASSIGNMENT/ASSIGNMNET 2/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: (vopt-7) Failed to open info file "C:/questasim64_10.7c/examples/SYSTEM VERILOG/SUBROUTINES/ASSIGNMENT/ASSIGNMNET 2/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# Optimization failed
+# ** Error: (vopt-1933) Unable to create temporary directory C:/questasim64_10.7c/examples/SYSTEM VERILOG/SUBROUTINES/ASSIGNMENT/ASSIGNMNET 2/work/_tempmsg
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 18:26:49 on May 01,2026, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0

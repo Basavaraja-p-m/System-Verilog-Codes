@@ -1,0 +1,44 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/TEST/SORTING
+T_opt
+!s110 1764578083
+VK[E@o>gP@2eTOgozm_GCK3
+04 6 4 work a_sort fast 0
+=1-84144d0ea3d5-692d5323-218-1764
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+va_sort
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764578313
+!i10b 1
+!s100 0QPU7QV=`m^JACg@Y5K730
+IK1TQ1A^k;L525271VHLe42
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 snippet_sv_unit
+S1
+R0
+w1764578079
+8snippet.sv
+Fsnippet.sv
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764578313.000000
+!s107 snippet.sv|
+!s90 snippet.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

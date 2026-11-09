@@ -1,0 +1,226 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:23:53 on May 02,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at dut.sv(92): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 12:23:54 on May 02,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:33 on May 02,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at dut.sv(92): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 12:24:33 on May 02,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:38 on May 02,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at dut.sv(92): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 12:24:38 on May 02,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:25:21 on May 02,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:25:22 on May 02,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 12:25:22 on May 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.DUT.mm File: dut.sv Line: 117 Expr: ~a
+# ** Info: fail
+#    Time: 0 ns Started: 0 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 10 ns Started: 10 ns  Scope: top.DUT.mm File: dut.sv Line: 117 Expr: ~a
+# ** Info: fail
+#    Time: 10 ns Started: 10 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.DUT.ff File: dut.sv Line: 105 Expr: $past(a,2)==0
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.DUT.ee File: dut.sv Line: 104 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.DUT.cc File: dut.sv Line: 102 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.DUT.bb File: dut.sv Line: 101 Expr: $rose(a)
+# FAILED
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.DUT.mm File: dut.sv Line: 117 Expr: ~a
+# ** Info: fail
+#    Time: 20 ns Started: 20 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.DUT.ff File: dut.sv Line: 105 Expr: $past(a,2)==0
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.DUT.dd File: dut.sv Line: 103 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.DUT.bb File: dut.sv Line: 101 Expr: $rose(a)
+# FAILED
+# ** Info: fail
+#    Time: 30 ns Started: 30 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.DUT.hh File: dut.sv Line: 107 Expr: b
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.DUT.ff File: dut.sv Line: 105 Expr: $past(a,2)==0
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.DUT.cc File: dut.sv Line: 102 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.DUT.bb File: dut.sv Line: 101 Expr: $rose(a)
+# ** Info: fail
+#    Time: 40 ns Started: 40 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.DUT.hh File: dut.sv Line: 107 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.DUT.ee File: dut.sv Line: 104 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.DUT.cc File: dut.sv Line: 102 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.DUT.bb File: dut.sv Line: 101 Expr: $rose(a)
+# ** Info: fail
+#    Time: 50 ns Started: 50 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.DUT.jj File: dut.sv Line: 110 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.DUT.hh File: dut.sv Line: 107 Expr: a
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.DUT.ee File: dut.sv Line: 104 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.DUT.dd File: dut.sv Line: 103 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.DUT.cc File: dut.sv Line: 102 Expr: $fell(b)
+# PASSED
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.DUT.mm File: dut.sv Line: 117 Expr: ~a
+# ** Info: pass
+#    Time: 60 ns Started: 60 ns  Scope: top.DUT.ll File: dut.sv Line: 114
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.DUT.hh File: dut.sv Line: 107 Expr: b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.DUT.ee File: dut.sv Line: 104 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.DUT.dd File: dut.sv Line: 103 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.DUT.cc File: dut.sv Line: 102 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.DUT.bb File: dut.sv Line: 101 Expr: $rose(a)
+# FAILED
+# ** Info: fail
+#    Time: 70 ns Started: 70 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.DUT.hh File: dut.sv Line: 107 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.DUT.ff File: dut.sv Line: 105 Expr: $past(a,2)==0
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.DUT.ee File: dut.sv Line: 104 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.DUT.cc File: dut.sv Line: 102 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.DUT.bb File: dut.sv Line: 101 Expr: $rose(a)
+# FAILED
+# ** Info: fail
+#    Time: 80 ns Started: 80 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.DUT.hh File: dut.sv Line: 107 Expr: b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.DUT.ee File: dut.sv Line: 104 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.DUT.cc File: dut.sv Line: 102 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.DUT.bb File: dut.sv Line: 101 Expr: $rose(a)
+# FAILED
+# ** Info: fail
+#    Time: 90 ns Started: 90 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Error: Assertion error.
+#    Time: 100 ns Started: 100 ns  Scope: top.DUT.jj File: dut.sv Line: 110 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 100 ns Started: 100 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 100 ns Started: 100 ns  Scope: top.DUT.hh File: dut.sv Line: 107 Expr: a
+# ** Error: Assertion error.
+#    Time: 100 ns Started: 100 ns  Scope: top.DUT.dd File: dut.sv Line: 103 Expr: $stable(a)
+# FAILED
+# PASSED
+# ** Error: Assertion error.
+#    Time: 100 ns Started: 100 ns  Scope: top.DUT.mm File: dut.sv Line: 117 Expr: ~a
+# ** Info: pass
+#    Time: 100 ns Started: 100 ns  Scope: top.DUT.ll File: dut.sv Line: 114
+# ** Error: Assertion error.
+#    Time: 110 ns Started: 60 ns  Scope: top.DUT.gg File: dut.sv Line: 106 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 110 ns Started: 110 ns  Scope: top.DUT.ii File: dut.sv Line: 108 Expr: $isunknown(a)
+# ** Error: Assertion error.
+#    Time: 110 ns Started: 110 ns  Scope: top.DUT.hh File: dut.sv Line: 107 Expr: b
+# ** Error: Assertion error.
+#    Time: 110 ns Started: 110 ns  Scope: top.DUT.dd File: dut.sv Line: 103 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 110 ns Started: 110 ns  Scope: top.DUT.cc File: dut.sv Line: 102 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 110 ns Started: 110 ns  Scope: top.DUT.bb File: dut.sv Line: 101 Expr: $rose(a)
+# FAILED
+# ** Info: fail
+#    Time: 110 ns Started: 110 ns  Scope: top.DUT.ll File: dut.sv Line: 116 Expr: $countones(a)
+# ** Note: $stop    : top.sv(18)
+#    Time: 120 ns  Iteration: 0  Instance: /top
+# Break in Module top at top.sv line 18
+# End time: 12:35:16 on May 02,2026, Elapsed time: 0:09:54
+# Errors: 56, Warnings: 0

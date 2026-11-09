@@ -1,0 +1,1528 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:02:08 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:02:09 on Dec 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:02:09 on Dec 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: top.sv(5): Module 'inter' is not defined.
+# ** Error: top.sv(7): Module 'dut' is not defined.
+# ** Error: top.sv(12): Module 'tb' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:05:57 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at interface.sv(3): near "int": syntax error, unexpected "SystemVerilog keyword 'int'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(6): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(11): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(17): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(24): near "\b; ": syntax error, unexpected IDENTIFIER.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(30): (vlog-2730) Undefined variable: 'addition'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(31): near "(": syntax error, unexpected '('.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(33): (vlog-2730) Undefined variable: 'division'.
+# ** Error: top.sv(3): Cannot find `include file "tb" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 16:05:58 on Dec 03,2025, Elapsed time: 0:00:01
+# Errors: 9, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:08:43 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at interface.sv(3): near "int": syntax error, unexpected "SystemVerilog keyword 'int'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(11): near "output": syntax error, unexpected output, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(24): near "\b; ": syntax error, unexpected IDENTIFIER.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(30): (vlog-2730) Undefined variable: 'addition'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(31): near "(": syntax error, unexpected '('.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(33): (vlog-2730) Undefined variable: 'division'.
+# ** Error: top.sv(3): Cannot find `include file "tb" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 16:08:43 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:09:16 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at interface.sv(3): near "int": syntax error, unexpected "SystemVerilog keyword 'int'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(24): near "\b; ": syntax error, unexpected IDENTIFIER.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(30): (vlog-2730) Undefined variable: 'addition'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(31): near "(": syntax error, unexpected '('.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(33): (vlog-2730) Undefined variable: 'division'.
+# ** Error: top.sv(3): Cannot find `include file "tb" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 16:09:16 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:12:03 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(24): near "\b; ": syntax error, unexpected IDENTIFIER.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(30): (vlog-2730) Undefined variable: 'addition'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(31): near "(": syntax error, unexpected '('.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(33): (vlog-2730) Undefined variable: 'division'.
+# ** Error: top.sv(3): Cannot find `include file "tb" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 16:12:03 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:15:11 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(26): near "\b; ": syntax error, unexpected IDENTIFIER.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(33): near "(": syntax error, unexpected '('.
+# ** Error: top.sv(3): Cannot find `include file "tb" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 16:15:11 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:16:12 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(28): near "\b; ": syntax error, unexpected IDENTIFIER.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(35): near "(": syntax error, unexpected '('.
+# ** Error: top.sv(3): Cannot find `include file "tb" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 16:16:13 on Dec 03,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:21:11 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(2)
+# ** at dut.sv(35): near "(": syntax error, unexpected '('.
+# ** Error: top.sv(3): Cannot find `include file "tb" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 16:21:11 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:25:11 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(35): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(36): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# ** Error: top.sv(3): Cannot find `include file "tb" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 16:25:12 on Dec 03,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:26:03 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(35): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(36): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:26:03 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:02:09 on Dec 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: dut.sv(35): (vopt-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: dut.sv(36): (vopt-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=          0 b=00000000000000000000000000000000 add=                    0
+# a=          0 b=          0 y=                    0
+# a=          0 b=          0 y=                    0
+# ** Note: implicit $finish from program    : tb.sv(6)
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:27:07 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:27:08 on Dec 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:27:09 on Dec 03,2025, Elapsed time: 0:25:00
+# Errors: 3, Warnings: 4
+# vsim top 
+# Start time: 16:27:09 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=          0 b=00000000000000000000000000000000 add=                    0
+# ** Note: implicit $finish from program    : tb.sv(6)
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:29:03 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:29:03 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:29:04 on Dec 03,2025, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:29:04 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'a' in hierarchical name 'a'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'b' in hierarchical name 'b'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'y' in hierarchical name 'y'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:29:30 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:29:30 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:29:04 on Dec 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a= 303379748 b=3230228097 y=                   0
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:30:10 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:30:10 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:30:10 on Dec 03,2025, Elapsed time: 0:01:06
+# Errors: 3, Warnings: 2
+# vsim top 
+# Start time: 16:30:10 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=         5 b=         5 y=                   0
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 0 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:30:41 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:30:41 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:30:41 on Dec 03,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:30:41 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=         5 b=         5 y=                   0
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:31:55 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:31:55 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:31:55 on Dec 03,2025, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:31:55 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=         5 b=         5 y=                  10
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:32:16 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:32:16 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:32:16 on Dec 03,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:32:16 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=        10 y=                  20
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:32:51 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:32:51 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:32:51 on Dec 03,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:32:51 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   0
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:33:34 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(35): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:33:34 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:33:34 on Dec 03,2025, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 3
+# vsim top 
+# Start time: 16:33:34 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): tb.sv(10): (vopt-7063) Failed to find 'subtraction' in hierarchical name 't.subtraction'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:34:21 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(35): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:34:21 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 16:33:34 on Dec 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: dut.sv(35): (vopt-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   5
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:35:01 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(36): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:35:02 on Dec 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 16:35:02 on Dec 03,2025, Elapsed time: 0:01:28
+# Errors: 1, Warnings: 4
+# vsim top 
+# Start time: 16:35:02 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(36): (vopt-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  50
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:36:28 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:36:28 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:36:29 on Dec 03,2025, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 3
+# vsim top 
+# Start time: 16:36:29 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   2
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:36:54 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(36): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:36:54 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:36:54 on Dec 03,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 3
+# vsim top 
+# Start time: 16:36:54 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(36): (vopt-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  50
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:37:34 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:37:34 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:37:34 on Dec 03,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 3
+# vsim top 
+# Start time: 16:37:34 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(15): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(20): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  50
+# ** Note: implicit $finish from program    : tb.sv(10)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:42:41 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# ** Error: ** while parsing file included at top.sv(3)
+# ** at tb.sv(7): (vlog-2730) Undefined variable: 'sel'.
+# -- Compiling module top
+# End time: 16:42:41 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:48:39 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:48:39 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:48:39 on Dec 03,2025, Elapsed time: 0:11:05
+# Errors: 4, Warnings: 2
+# vsim top 
+# Start time: 16:48:39 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(16): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(21): (vopt-2250) Function "mul" has no return value assignment.
+# ** Warning: top.sv(11): (vopt-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 4, found 3.
+# ** Warning: top.sv(11): (vopt-2718) [TFMPC] - Missing connection for port 'sel'.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  15
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:50:23 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:50:23 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:50:23 on Dec 03,2025, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 16:50:23 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(16): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(21): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  15
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:52:20 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(42): (vlog-13266) No actual value has been specified for a formal argument 'y' that does not have a default value.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(42): (vlog-13265) Number of actuals and formals does not match in function call.
+# -- Compiling program tb
+# -- Compiling module top
+# End time: 16:52:20 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:53:02 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(42): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(43): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:53:02 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:53:02 on Dec 03,2025, Elapsed time: 0:02:39
+# Errors: 5, Warnings: 4
+# vsim top 
+# Start time: 16:53:02 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(42): (vopt-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: dut.sv(43): (vopt-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# ** Warning: dut.sv(16): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(21): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  15
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:54:11 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(42): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(43): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:54:11 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:54:12 on Dec 03,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 6
+# vsim top 
+# Start time: 16:54:12 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(42): (vopt-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: dut.sv(43): (vopt-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# ** Warning: dut.sv(16): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(21): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   0
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:54:56 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(42): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(43): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:54:56 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:54:57 on Dec 03,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 6
+# vsim top 
+# Start time: 16:54:57 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   0
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:55:33 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(42): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(43): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:55:33 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:55:34 on Dec 03,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:55:34 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   0
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:56:55 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(42): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(43): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:56:55 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:56:55 on Dec 03,2025, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:56:55 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  15
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:57:10 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(42): (vlog-2240) Treating stand-alone use of function 'sub' as an implicit VOID cast.
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(43): (vlog-2240) Treating stand-alone use of function 'mul' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:57:10 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:57:11 on Dec 03,2025, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:57:11 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  50
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:57:51 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:57:51 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:57:52 on Dec 03,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:57:52 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(16): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(21): (vopt-2250) Function "mul" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  50
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:03:22 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:03:22 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:03:23 on Dec 03,2025, Elapsed time: 0:05:31
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 17:03:23 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=         1 b=         5 y=18446744073709551612
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:05 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:04:05 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:04:06 on Dec 03,2025, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:04:06 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   5
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:15:47 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(44): (vlog-2240) Treating stand-alone use of function 'logicol' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:15:47 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:15:47 on Dec 03,2025, Elapsed time: 0:11:41
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 17:15:47 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(44): (vopt-2240) Treating stand-alone use of function 'logicol' as an implicit VOID cast.
+# ** Warning: dut.sv(16): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(21): (vopt-2250) Function "mul" has no return value assignment.
+# ** Warning: dut.sv(33): (vopt-2250) Function "logicol" has no return value assignment.
+# ** Warning: top.sv(11): (vopt-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 4, found 3.
+# ** Warning: top.sv(11): (vopt-2718) [TFMPC] - Missing connection for port 'sel'.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  50
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:17:10 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(34): (vlog-2730) Undefined variable: 'p'.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(35): (vlog-2730) Undefined variable: 'q'.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(36): (vlog-2730) Undefined variable: 'r'.
+# -- Compiling program tb
+# -- Compiling module top
+# End time: 17:17:10 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:17:37 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(41): (vlog-2240) Treating stand-alone use of function 'logicol' as an implicit VOID cast.
+# ** Error: ** while parsing file included at top.sv(2)
+# ** at dut.sv(41): Number of actuals and formals does not match in function call.
+# -- Compiling program tb
+# -- Compiling module top
+# End time: 17:17:37 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:18:19 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(41): (vlog-2240) Treating stand-alone use of function 'logicol' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:18:19 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:18:19 on Dec 03,2025, Elapsed time: 0:02:32
+# Errors: 10, Warnings: 8
+# vsim top 
+# Start time: 17:18:19 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dut.sv(41): (vopt-2240) Treating stand-alone use of function 'logicol' as an implicit VOID cast.
+# ** Warning: dut.sv(13): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(18): (vopt-2250) Function "mul" has no return value assignment.
+# ** Warning: dut.sv(30): (vopt-2250) Function "logicol" has no return value assignment.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   0
+# ** Note: implicit $finish from program    : tb.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:20:02 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(41): (vlog-2240) Treating stand-alone use of function 'logicol' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:20:02 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:20:02 on Dec 03,2025, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 5
+# vsim top 
+# Start time: 17:20:02 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): tb.sv(12): (vopt-7063) Failed to find 'p' in hierarchical name 't.p'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(12): (vopt-7063) Failed to find 'q' in hierarchical name 't.q'.
+#         Region: top.TB
+# ** Error (suppressible): tb.sv(12): (vopt-7063) Failed to find 'r' in hierarchical name 't.r'.
+#         Region: top.TB
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:21:01 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(41): (vlog-2240) Treating stand-alone use of function 'logicol' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:21:01 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 17:20:02 on Dec 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): top.sv(14): (vopt-7063) Failed to find 'y' in hierarchical name 'i.y'.
+#         Region: top
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:21:44 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Warning: ** while parsing file included at top.sv(2)
+# ** at dut.sv(41): (vlog-2240) Treating stand-alone use of function 'logicol' as an implicit VOID cast.
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:21:44 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 17:20:02 on Dec 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): top.sv(11): (vopt-2912) Port 'p' not found in module 'dut' (3rd connection).
+# ** Error (suppressible): top.sv(11): (vopt-2912) Port 'q' not found in module 'dut' (4th connection).
+# ** Error (suppressible): top.sv(11): (vopt-2912) Port 'r' not found in module 'dut' (5th connection).
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:22:03 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: (vlog-13038) ** while parsing file included at top.sv(2)
+# ** at dut.sv(5): near ")": Missing port in ansi port list.
+# End time: 17:22:03 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:22:57 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error (suppressible): ** while parsing file included at top.sv(2)
+# ** at dut.sv(7): (vlog-2388) 'p' already declared in this scope (dut).
+# ** Error (suppressible): ** while parsing file included at top.sv(2)
+# ** at dut.sv(7): (vlog-2388) 'q' already declared in this scope (dut).
+# ** Error (suppressible): ** while parsing file included at top.sv(2)
+# ** at dut.sv(7): (vlog-2388) 'r' already declared in this scope (dut).
+# -- Compiling program tb
+# -- Compiling module top
+# End time: 17:22:57 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:25:45 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at tb.sv(13): near "end": syntax error, unexpected end, expecting "SystemVerilog keyword 'assert' " or "SystemVerilog keyword 'assume' " or restrict .
+# End time: 17:25:45 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:26:10 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# ** Error: (vlog-13069) top.sv(13): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# End time: 17:26:10 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:26:28 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:26:28 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:20:02 on Dec 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: dut.sv(12): (vopt-2250) Function "sub" has no return value assignment.
+# ** Warning: dut.sv(17): (vopt-2250) Function "mul" has no return value assignment.
+# ** Warning: top.sv(11): (vopt-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 4, found 3.
+# ** Warning: top.sv(11): (vopt-2718) [TFMPC] - Missing connection for port 'y'.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=         1 b=         1 y=                   x
+# ** Note: implicit $finish from program    : tb.sv(12)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:26:53 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(3)
+# ** at tb.sv(14): near "endprogram": syntax error, unexpected "SystemVerilog keyword 'endprogram'".
+# ** Error: top.sv(9): Checker 'inter' not found.  Instantiation 'i' must be of a visible checker.
+# ** Error: top.sv(13): Checker 'dut' not found.  Instantiation 'DUT' must be of a visible checker.
+# ** Error: top.sv(15): (vlog-2730) Undefined variable: 'i'.
+# ** Error: top.sv(15): Checker 'tb' not found.  Instantiation 'TB' must be of a visible checker.
+# ** Error: (vlog-13069) top.sv(17): near "endmodule": syntax error, unexpected endmodule.
+# End time: 17:26:53 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:27:11 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:27:12 on Dec 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:27:12 on Dec 03,2025, Elapsed time: 0:07:10
+# Errors: 16, Warnings: 4
+# vsim top 
+# Start time: 17:27:12 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=         1 b=         1 y=                   x
+# ** Note: implicit $finish from program    : tb.sv(12)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:27:28 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:27:28 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:27:28 on Dec 03,2025, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:27:28 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=         1 b=         1 y=                   x
+# ** Note: implicit $finish from program    : tb.sv(12)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:28:08 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:28:08 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:28:08 on Dec 03,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:28:08 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                   x
+# ** Note: implicit $finish from program    : tb.sv(12)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:30:15 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# ** Error: (vlog-13069) top.sv(14): near ".": syntax error, unexpected '.', expecting ')'.
+# End time: 17:30:15 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:30:30 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:30:30 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:30:30 on Dec 03,2025, Elapsed time: 0:02:22
+# Errors: 4, Warnings: 0
+# vsim top 
+# Start time: 17:30:30 on Dec 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  50
+# ** Note: implicit $finish from program    : tb.sv(12)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:31:53 on Dec 03,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:31:53 on Dec 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:31:54 on Dec 03,2025, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:31:54 on Dec 03,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# a=        10 b=         5 y=                  50
+# ** Note: implicit $finish from program    : tb.sv(12)
+#    Time: 1 ns  Iteration: 0  Instance: /top/TB
+# 1
+# Simulation stop requested.
+quit -sim
+# End time: 17:32:33 on Dec 03,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0

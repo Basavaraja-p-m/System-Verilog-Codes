@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/COVERAGES/TEST CASES
+T_opt
+!s110 1767596318
+V[ndd`[M`5aoCe7<aTIKfo0
+Z1 04 3 4 work top fast 0
+=1-84144d0ea3d5-695b611e-bf-ac0
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1767447088
+VM3mdobddYnCAP[TnTX8Z[1
+R1
+=1-84144d0ea3d5-69591a30-264-3c98
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1767608028
+V9PkJ]Kz^PEg7iSiJW3LDa1
+R1
+=1-84144d0ea3d5-695b8edc-123-34c
+R2
+R3
+n@_opt2
+R4
+R0
+vdut
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z6 !s110 1767608045
+!i10b 1
+!s100 gf]DSG5TI16hhIH@J]h]G1
+I8fKRLRRgRLH3@k;:dT?hb1
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 !s105 top_sv_unit
+S1
+Z9 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/COVERAGES/TEST CASES/FOR SRAM
+w1767354894
+8dut.sv
+Z10 Fdut.sv
+L0 1
+Z11 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z12 !s108 1767608045.000000
+!s107 coverage.sv|sb.sv|monitor.sv|bfm.sv|driver.sv|generator.sv|packet.sv|env.sv|test_wr_rd.sv|tb.sv|interface.sv|dut.sv|top.sv|
+Z13 !s90 -reportprogress|300|top.sv|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Yinter
+R5
+R6
+!i10b 1
+!s100 Y594Vea1e5TWokPle_M`G2
+I`@3]7<Gm>V26IOnIcDbTY0
+R7
+R8
+S1
+R9
+w1767347407
+8interface.sv
+Z15 Finterface.sv
+L0 1
+R11
+r1
+!s85 0
+31
+R12
+Z16 !s107 coverage.sv|sb.sv|monitor.sv|bfm.sv|driver.sv|generator.sv|packet.sv|env.sv|test_wr_rd.sv|tb.sv|interface.sv|dut.sv|top.sv|
+R13
+!i113 0
+R14
+R3
+4tb
+R5
+Z17 DXx4 work 11 top_sv_unit 0 22 5]>731DQ:YOKhXEY`zchO0
+R7
+r1
+!s85 0
+!i10b 1
+!s100 39;il2IQM<@@Cj6[lmUZL0
+Ia0[M]6I6iR^o_C3?h@OL_2
+R8
+S1
+R9
+w1767446526
+8tb.sv
+Z18 Ftb.sv
+L0 4
+R11
+31
+R12
+R16
+R13
+!i113 0
+R14
+R3
+vtop
+R5
+R17
+R7
+r1
+!s85 0
+!i10b 1
+!s100 6U^k_43hY=AEd?=WcRP>@2
+I??IkZZFPIlg`DG=9`^OP31
+R8
+S1
+R9
+w1767436825
+Z19 8top.sv
+Z20 Ftop.sv
+L0 5
+R11
+31
+R12
+R16
+R13
+!i113 0
+R14
+R3
+Xtop_sv_unit
+!s115 inter
+R5
+V5]>731DQ:YOKhXEY`zchO0
+r1
+!s85 0
+!i10b 1
+!s100 no`hFmR:0=[>U[l1CLMYn2
+I5]>731DQ:YOKhXEY`zchO0
+!i103 1
+S1
+R9
+w1767596310
+R19
+R20
+R10
+R15
+R18
+Ftest_wr_rd.sv
+Fenv.sv
+Fpacket.sv
+Fgenerator.sv
+Fdriver.sv
+Fbfm.sv
+Fmonitor.sv
+Fsb.sv
+Fcoverage.sv
+L0 1
+R11
+31
+R12
+R16
+R13
+!i113 0
+R14
+R3

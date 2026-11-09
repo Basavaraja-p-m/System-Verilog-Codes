@@ -1,0 +1,68 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/SV IMPS/CONSTSRINTS
+T_opt
+!s110 1768293169
+V7Be]zXkh7Eill9HcSA?NQ3
+04 15 4 work snippet_sv_unit fast 0
+04 3 4 work top fast 0
+=1-84144d0ea3d5-69660331-2b6-7e44
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+Xsnippet_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VbWkP=73f>dXhla>2WQZ[_2
+r1
+!s85 0
+!i10b 1
+!s100 :oZzDU]:QiGe]6MmF@_f>1
+IbWkP=73f>dXhla>2WQZ[_2
+!i103 1
+S1
+R0
+Z3 w1768293164
+Z4 8snippet.sv
+Z5 Fsnippet.sv
+L0 1
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1768293167.000000
+Z8 !s107 snippet.sv|
+Z9 !s90 snippet.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 15 snippet_sv_unit 0 22 bWkP=73f>dXhla>2WQZ[_2
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 XbnRfegY36_Dh<ZQIAG6S1
+I7UZI@:;M_Y7[nR@ab2_Ah2
+!s105 snippet_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 21
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

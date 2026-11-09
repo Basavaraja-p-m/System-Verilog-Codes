@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/COMPLETE SV ARCHITEVTURE/ENCODER-DECODER TEST
+T_opt
+!s110 1766985251
+V>0@;j;P3dgz7O?C[k:Uda0
+04 3 4 work top fast 0
+=1-84144d0ea3d5-69520e23-5d-4430
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdut1
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1766985256
+!i10b 1
+!s100 ^@bk8VfSoNIk@jg90[eol0
+IB^9P3SPd`S2J7N8c:ni`M0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 top_sv_unit
+S1
+R0
+Z6 w1766818287
+8dut1.sv
+Z7 Fdut1.sv
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1766985256.000000
+!s107 tb.sv|env.sv|scoreboard.sv|monitor.sv|driver.sv|generator.sv|packet.sv|interface.sv|dut2.sv|dut1.sv|top.sv|
+Z10 !s90 -reportprogress|300|top.sv|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdut2
+R2
+R3
+!i10b 1
+!s100 KM9j]1Tf:C@z0bLBif8Wg0
+IW1?Z]EACFA5cUbj>DScek1
+R4
+R5
+S1
+R0
+R6
+8dut2.sv
+Z12 Fdut2.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 tb.sv|env.sv|scoreboard.sv|monitor.sv|driver.sv|generator.sv|packet.sv|interface.sv|dut2.sv|dut1.sv|top.sv|
+R10
+!i113 0
+R11
+R1
+Yinter
+R2
+R3
+!i10b 1
+!s100 _TieRnlSS4b>oh<^lj<XH0
+I3n]d^`e7P=Fa3oQ91Kf_F2
+R4
+R5
+S1
+R0
+w1766818067
+8interface.sv
+Z14 Finterface.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 0
+R11
+R1
+4tb
+R2
+Z15 DXx4 work 11 top_sv_unit 0 22 _0cU7@EVMfHjM]6anbi`z2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 kb17RV<7EiIC2Wd`0W=:40
+IOK<:zMB5C?jM9SU=`F1DT0
+R5
+S1
+R0
+w1766984929
+8tb.sv
+Z16 Ftb.sv
+L0 1
+R8
+31
+R9
+R13
+R10
+!i113 0
+R11
+R1
+vtop
+R2
+R15
+R4
+r1
+!s85 0
+!i10b 1
+!s100 G4EQC=9m1hHUCA^j5SIiR0
+IW6<oA^TWH^H5m0Q36IaHJ1
+R5
+S1
+R0
+w1766985133
+Z17 8top.sv
+Z18 Ftop.sv
+L0 12
+R8
+31
+R9
+R13
+R10
+!i113 0
+R11
+R1
+Xtop_sv_unit
+!s115 inter
+R2
+V_0cU7@EVMfHjM]6anbi`z2
+r1
+!s85 0
+!i10b 1
+!s100 K8ZMDzECRfdCoBJCQ`WBT0
+I_0cU7@EVMfHjM]6anbi`z2
+!i103 1
+S1
+R0
+w1766985245
+R17
+R18
+R7
+R12
+R14
+Fpacket.sv
+Fgenerator.sv
+Fdriver.sv
+Fmonitor.sv
+Fscoreboard.sv
+Fenv.sv
+R16
+L0 1
+R8
+31
+R9
+R13
+R10
+!i113 0
+R11
+R1

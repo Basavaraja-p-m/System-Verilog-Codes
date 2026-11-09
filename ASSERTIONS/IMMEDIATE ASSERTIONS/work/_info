@@ -1,0 +1,116 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/ASSERTIONS/IMMEDIATE ASSERTIONS
+T_opt
+!s110 1767692856
+VOLDXWYgfQ^RmAWTFn7^dK2
+04 3 4 work top fast 0
+=1-84144d0ea3d5-695cda37-39b-21f4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdut
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1767692905
+!i10b 1
+!s100 h4RgzRNEaFEG>l@bZ1H0U2
+IKkdX0HR;dT<ZjT@bTRON[2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 top_sv_unit
+S1
+R0
+w1767612653
+8dut.sv
+Fdut.sv
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1767692905.000000
+!s107 tb.sv|interface.sv|dut.sv|top.sv|
+Z8 !s90 -reportprogress|300|top.sv|+acc|
+!i113 0
+Z9 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yinter
+R2
+R3
+!i10b 1
+!s100 QAKEZWhhKSl1BRo13KfIB2
+I=4NMWJPlgcdXe4PV9?GLB2
+R4
+R5
+S1
+R0
+w1767609526
+8interface.sv
+Finterface.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z10 !s107 tb.sv|interface.sv|dut.sv|top.sv|
+R8
+!i113 0
+R9
+R1
+4tb
+R2
+R3
+!i10b 1
+!s100 9B8>h?KBTU4HK>3`6Z:I80
+IfJHWK[IU7e3]oBcX@lWkB0
+R4
+R5
+S1
+R0
+w1767692670
+8tb.sv
+Ftb.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R10
+R8
+!i113 0
+R9
+R1
+vtop
+R2
+R3
+!i10b 1
+!s100 V:lN7>nI3JGkQGbdebHe:0
+Ij0>0DD<@i6c1Pan[nP^370
+R4
+R5
+S1
+R0
+w1767615090
+8top.sv
+Ftop.sv
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R10
+R8
+!i113 0
+R9
+R1

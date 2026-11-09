@@ -1,0 +1,431 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:35:21 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# ** Error: (vlog-13069) FIFO.sv(1): near "DEPTH": syntax error, unexpected IDENTIFIER, expecting ')'.
+# End time: 14:35:21 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog FIFO.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:36:30 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# ** Error: (vlog-13069) FIFO.sv(1): near "DEPTH": syntax error, unexpected IDENTIFIER, expecting ')'.
+# End time: 14:36:31 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog FIFO.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:37:15 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# ** Error: FIFO.sv(17): (vlog-2110) Illegal reference to net "data_out".
+# ** Error: FIFO.sv(26): (vlog-2110) Illegal reference to net "data_out".
+# -- Compiling module tb
+# ** Error: (vlog-13069) FIFO.sv(32): near "DEPTH": syntax error, unexpected IDENTIFIER, expecting ')'.
+# End time: 14:37:15 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog FIFO.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:38:13 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# ** Error: (vlog-13069) FIFO.sv(1): near "DEPTH": syntax error, unexpected IDENTIFIER, expecting ')'.
+# End time: 14:38:13 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog FIFO.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:42:12 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# ** Error: FIFO.sv(17): (vlog-2110) Illegal reference to net "data_out".
+# ** Error: FIFO.sv(26): (vlog-2110) Illegal reference to net "data_out".
+# -- Compiling module tb
+# ** Error: (vlog-13069) FIFO.sv(32): near "DEPTH": syntax error, unexpected IDENTIFIER, expecting ')'.
+# End time: 14:42:13 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog FIFO.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:42:45 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:42:45 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 14:42:45 on Nov 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): FIFO.sv(18): (vopt-7063) Failed to find 'q' in hierarchical name 'q.delete'.
+#         Region: tb.F1
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:43:10 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:43:10 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 14:42:45 on Nov 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FIFO(fast)
+# clk=0 rst=0 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   0
+# clk=1 rst=0 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   5
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                  10
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  15
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  20
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  25
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  30
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  35
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  40
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  45
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  50
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  55
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  60
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  65
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  70
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  75
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  80
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  85
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  90
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  95
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out=  0 empty=0 full=1 time=                 100
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 105
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 110
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 115
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 120
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 125
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 130
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 135
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 140
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 145
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 150
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 155
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 160
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 165
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 170
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=1 full=0 time=                 175
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=1 full=0 time=                 180
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=1 full=0 time=                 185
+# clk=0 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=1 full=0 time=                 190
+# clk=1 rst=1 data_in= 36 wr=0 rd=1 data_out= 36 empty=1 full=0 time=                 195
+# ** Note: $stop    : FIFO.sv(66)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at FIFO.sv line 66
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:44:37 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:44:37 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:44:41 on Nov 25,2025, Elapsed time: 0:01:56
+# Errors: 1, Warnings: 0
+# vsim tb 
+# Start time: 14:44:41 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FIFO(fast)
+# clk=0 rst=0 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   0
+# clk=1 rst=0 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   5
+# clk=0 rst=1 data_in=129 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                  10
+# clk=1 rst=1 data_in=129 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  15
+# clk=0 rst=1 data_in=  9 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  20
+# clk=1 rst=1 data_in=  9 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  25
+# clk=0 rst=1 data_in= 99 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  30
+# clk=1 rst=1 data_in= 99 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  35
+# clk=0 rst=1 data_in= 13 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  40
+# clk=1 rst=1 data_in= 13 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  45
+# clk=0 rst=1 data_in=141 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  50
+# clk=1 rst=1 data_in=141 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  55
+# clk=0 rst=1 data_in=101 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  60
+# clk=1 rst=1 data_in=101 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  65
+# clk=0 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  70
+# clk=1 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  75
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=  0 empty=0 full=0 time=                  80
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=129 empty=0 full=0 time=                  85
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=129 empty=0 full=0 time=                  90
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=  9 empty=0 full=0 time=                  95
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=  9 empty=0 full=0 time=                 100
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 99 empty=0 full=0 time=                 105
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 99 empty=0 full=0 time=                 110
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 13 empty=0 full=0 time=                 115
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 13 empty=0 full=0 time=                 120
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=141 empty=0 full=0 time=                 125
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=141 empty=0 full=0 time=                 130
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=101 empty=0 full=0 time=                 135
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=101 empty=0 full=0 time=                 140
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 145
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 150
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 155
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 160
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 165
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 170
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 175
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 180
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 185
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 190
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 195
+# ** Note: $stop    : FIFO.sv(69)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at FIFO.sv line 69
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:47:09 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:47:09 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:47:12 on Nov 25,2025, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 14:47:12 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FIFO(fast)
+# clk=0 rst=0 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   0
+# clk=1 rst=0 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   5
+# clk=0 rst=1 data_in=129 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                  10
+# clk=1 rst=1 data_in=129 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  15
+# clk=0 rst=1 data_in=  9 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  20
+# clk=1 rst=1 data_in=  9 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  25
+# clk=0 rst=1 data_in= 99 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  30
+# clk=1 rst=1 data_in= 99 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  35
+# clk=0 rst=1 data_in= 13 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  40
+# clk=1 rst=1 data_in= 13 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  45
+# clk=0 rst=1 data_in=141 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  50
+# clk=1 rst=1 data_in=141 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  55
+# clk=0 rst=1 data_in=101 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  60
+# clk=1 rst=1 data_in=101 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  65
+# clk=0 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  70
+# clk=1 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  75
+# clk=0 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  80
+# clk=1 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  85
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=  0 empty=0 full=1 time=                  90
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=129 empty=0 full=0 time=                  95
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=129 empty=0 full=0 time=                 100
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=  9 empty=0 full=0 time=                 105
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=  9 empty=0 full=0 time=                 110
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 99 empty=0 full=0 time=                 115
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 99 empty=0 full=0 time=                 120
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 13 empty=0 full=0 time=                 125
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 13 empty=0 full=0 time=                 130
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=141 empty=0 full=0 time=                 135
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=141 empty=0 full=0 time=                 140
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=101 empty=0 full=0 time=                 145
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=101 empty=0 full=0 time=                 150
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=0 full=0 time=                 155
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=0 full=0 time=                 160
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 165
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 170
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 175
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 180
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 185
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 190
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 195
+# ** Note: $stop    : FIFO.sv(70)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at FIFO.sv line 70
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:48:21 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# -- Compiling module tb
+# ** Error: (vlog-13069) FIFO.sv(56): near "=": syntax error, unexpected '=', expecting ++ or --.
+# End time: 14:48:21 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog FIFO.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:48:54 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:48:54 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:48:57 on Nov 25,2025, Elapsed time: 0:01:45
+# Errors: 4, Warnings: 0
+# vsim tb 
+# Start time: 14:48:57 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FIFO(fast)
+# clk=0 rst=0 data_in=  x wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   0
+# clk=1 rst=0 data_in=  x wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   5
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                  10
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  15
+# clk=0 rst=1 data_in=129 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  20
+# clk=1 rst=1 data_in=129 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  25
+# clk=0 rst=1 data_in=  9 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  30
+# clk=1 rst=1 data_in=  9 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  35
+# clk=0 rst=1 data_in= 99 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  40
+# clk=1 rst=1 data_in= 99 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  45
+# clk=0 rst=1 data_in= 13 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  50
+# clk=1 rst=1 data_in= 13 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  55
+# clk=0 rst=1 data_in=141 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  60
+# clk=1 rst=1 data_in=141 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  65
+# clk=0 rst=1 data_in=101 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  70
+# clk=1 rst=1 data_in=101 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  75
+# clk=0 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  80
+# clk=1 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  85
+# clk=0 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  90
+# clk=1 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  95
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=  0 empty=0 full=1 time=                 100
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 105
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 110
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=129 empty=0 full=0 time=                 115
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=129 empty=0 full=0 time=                 120
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=  9 empty=0 full=0 time=                 125
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=  9 empty=0 full=0 time=                 130
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 99 empty=0 full=0 time=                 135
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 99 empty=0 full=0 time=                 140
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 13 empty=0 full=0 time=                 145
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 13 empty=0 full=0 time=                 150
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=141 empty=0 full=0 time=                 155
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=141 empty=0 full=0 time=                 160
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=101 empty=0 full=0 time=                 165
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=101 empty=0 full=0 time=                 170
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 175
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 180
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 185
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 190
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 195
+# ** Note: $stop    : FIFO.sv(71)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at FIFO.sv line 71
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:49:43 on Nov 25,2025
+# vlog -reportprogress 300 FIFO.sv "+acc" 
+# -- Compiling module FIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:49:43 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:49:46 on Nov 25,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 14:49:46 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FIFO(fast)
+# clk=0 rst=0 data_in=  x wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   0
+# clk=1 rst=0 data_in=  x wr=1 rd=0 data_out=  0 empty=1 full=0 time=                   5
+# clk=0 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=1 full=0 time=                  10
+# clk=1 rst=1 data_in= 36 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  15
+# clk=0 rst=1 data_in=129 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  20
+# clk=1 rst=1 data_in=129 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  25
+# clk=0 rst=1 data_in=  9 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  30
+# clk=1 rst=1 data_in=  9 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  35
+# clk=0 rst=1 data_in= 99 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  40
+# clk=1 rst=1 data_in= 99 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  45
+# clk=0 rst=1 data_in= 13 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  50
+# clk=1 rst=1 data_in= 13 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  55
+# clk=0 rst=1 data_in=141 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  60
+# clk=1 rst=1 data_in=141 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  65
+# clk=0 rst=1 data_in=101 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  70
+# clk=1 rst=1 data_in=101 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  75
+# clk=0 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=0 time=                  80
+# clk=1 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  85
+# clk=0 rst=1 data_in= 18 wr=1 rd=0 data_out=  0 empty=0 full=1 time=                  90
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                  95
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 36 empty=0 full=0 time=                 100
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=129 empty=0 full=0 time=                 105
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=129 empty=0 full=0 time=                 110
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=  9 empty=0 full=0 time=                 115
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=  9 empty=0 full=0 time=                 120
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 99 empty=0 full=0 time=                 125
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 99 empty=0 full=0 time=                 130
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 13 empty=0 full=0 time=                 135
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 13 empty=0 full=0 time=                 140
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=141 empty=0 full=0 time=                 145
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=141 empty=0 full=0 time=                 150
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out=101 empty=0 full=0 time=                 155
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out=101 empty=0 full=0 time=                 160
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 165
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 170
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 175
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 180
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 185
+# clk=0 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 190
+# clk=1 rst=1 data_in= 18 wr=0 rd=1 data_out= 18 empty=1 full=0 time=                 195
+# ** Note: $stop    : FIFO.sv(71)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at FIFO.sv line 71
+quit -sim
+# End time: 14:50:16 on Nov 25,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0

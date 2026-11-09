@@ -1,0 +1,150 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/SYSTEM VERILOG/COMPLETE SV ARCHITEVTURE/FIFO
+T_opt
+!s110 1769062722
+VhYHiaCN6DT3JPa2FP5Q^O0
+04 3 4 work top fast 0
+=1-84144d0ea3d5-6971c142-8e-4278
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdut
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1769065923
+!i10b 1
+!s100 6?5?o9i<z1]IAMMoIZ^FU3
+I<ER97a8HA@_1F<aUTd=dO1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 top_sv_unit
+S1
+R0
+w1769022039
+8dut.sv
+Z6 Fdut.sv
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1769065923.000000
+!s107 tb.sv|env.sv|sb.sv|monitor.sv|bfm.sv|driver.sv|generator.sv|packet.sv|interface.sv|dut.sv|top.sv|
+Z9 !s90 -reportprogress|300|top.sv|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yinter
+R2
+R3
+!i10b 1
+!s100 oJk;i=7I?T2]1M:U[2<@A3
+I9_^489Smo5I1jIJRL<B?]0
+R4
+R5
+S1
+R0
+w1769018208
+8interface.sv
+Z11 Finterface.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 tb.sv|env.sv|sb.sv|monitor.sv|bfm.sv|driver.sv|generator.sv|packet.sv|interface.sv|dut.sv|top.sv|
+R9
+!i113 0
+R10
+R1
+4tb
+R2
+Z13 DXx4 work 11 top_sv_unit 0 22 _V2d2]_M`L;aW0YLAL1R_1
+R4
+r1
+!s85 0
+!i10b 1
+!s100 Hhieh3PaYVFbF;H[657mG2
+Ij7EDK;cQ2_HY3jl1F7GzC3
+R5
+S1
+R0
+w1769016278
+8tb.sv
+Z14 Ftb.sv
+L0 1
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+vtop
+R2
+R13
+R4
+r1
+!s85 0
+!i10b 1
+!s100 Ifo=HM@b8bhHZE3>41@b?1
+IHBe:LWdLIL7WXBj0m6ilN1
+R5
+S1
+R0
+w1769019344
+Z15 8top.sv
+Z16 Ftop.sv
+L0 11
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+Xtop_sv_unit
+!s115 inter
+R2
+V_V2d2]_M`L;aW0YLAL1R_1
+r1
+!s85 0
+!i10b 1
+!s100 IY>RXa@Gb[id;TLEdhSc90
+I_V2d2]_M`L;aW0YLAL1R_1
+!i103 1
+S1
+R0
+w1769062717
+R15
+R16
+R6
+R11
+Fpacket.sv
+Fgenerator.sv
+Fdriver.sv
+Fbfm.sv
+Fmonitor.sv
+Fsb.sv
+Fenv.sv
+R14
+L0 1
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1

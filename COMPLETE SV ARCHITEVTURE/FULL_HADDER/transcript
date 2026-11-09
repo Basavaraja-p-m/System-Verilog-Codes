@@ -1,0 +1,119 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:02:23 on Feb 18,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:02:23 on Feb 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 15:02:23 on Feb 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# name=FROM GENERATOR
+# a=1 b=0 cin=1
+# sum=0 carry=0
+# name=FROM GENERATOR
+# a=0 b=0 cin=1
+# sum=0 carry=0
+# name=FROM THE DRIVER
+# a=0 b=0 cin=1
+# sum=0 carry=0
+# name=FROM BFM
+# a=0 b=0 cin=1
+# sum=1 carry=0
+# name=FROM MONITOR
+# a=0 b=0 cin=0
+# sum=1 carry=0
+# TEST PASSED
+# name=BFM
+# a=0 b=0 cin=1
+# sum=1 carry=0
+# name=MONITOR
+# a=0 b=0 cin=0
+# sum=1 carry=0
+# name=FROM GENERATOR
+# a=1 b=1 cin=1
+# sum=0 carry=0
+# name=FROM THE DRIVER
+# a=1 b=1 cin=1
+# sum=0 carry=0
+# name=FROM BFM
+# a=1 b=1 cin=1
+# sum=1 carry=1
+# name=FROM MONITOR
+# a=0 b=0 cin=0
+# sum=1 carry=1
+# TEST PASSED
+# name=BFM
+# a=1 b=1 cin=1
+# sum=1 carry=1
+# name=MONITOR
+# a=0 b=0 cin=0
+# sum=1 carry=1
+# name=FROM GENERATOR
+# a=0 b=0 cin=0
+# sum=0 carry=0
+# name=FROM THE DRIVER
+# a=0 b=0 cin=0
+# sum=0 carry=0
+# name=FROM BFM
+# a=0 b=0 cin=0
+# sum=0 carry=0
+# name=FROM MONITOR
+# a=0 b=0 cin=0
+# sum=0 carry=0
+# TEST PASSED
+# name=BFM
+# a=0 b=0 cin=0
+# sum=0 carry=0
+# name=MONITOR
+# a=0 b=0 cin=0
+# sum=0 carry=0
+# name=FROM GENERATOR
+# a=1 b=0 cin=1
+# sum=0 carry=0
+# name=FROM THE DRIVER
+# a=1 b=0 cin=1
+# sum=0 carry=0
+# name=FROM BFM
+# a=1 b=0 cin=1
+# sum=0 carry=1
+# name=FROM MONITOR
+# a=0 b=0 cin=0
+# sum=0 carry=1
+# TEST PASSED
+# name=BFM
+# a=1 b=0 cin=1
+# sum=0 carry=1
+# name=MONITOR
+# a=0 b=0 cin=0
+# sum=0 carry=1
+# End time: 15:02:37 on Feb 18,2026, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0

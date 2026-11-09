@@ -1,0 +1,5 @@
+Start time: 14:05:39 on Jan 13,2026
+qverilog snippet.sv 
+** Error: snippet.sv(14): (qverilog-2730) Undefined variable: 'i'.
+End time: 14:05:39 on Jan 13,2026, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0

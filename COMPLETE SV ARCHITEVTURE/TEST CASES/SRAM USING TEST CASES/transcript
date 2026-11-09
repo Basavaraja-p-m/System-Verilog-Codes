@@ -1,0 +1,409 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:43:46 on Jan 05,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(64): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(18): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:43:47 on Jan 05,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 15:43:47 on Jan 05,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: tb.sv(18): (vopt-2880) Task "status" is being called in final procedure.
+# ** Warning: generator.sv(64): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: BASAVARAJ  Hostname: DESKTOP-UFCQR41  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlft2b1wee".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2b1wee
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  0 time=                  25
+# name=FROM GEN
+# clk=0 rst=0 data_in=  0 addr=0 wr=1 data_out=  0 time=                  25
+# name=FROM COVERAGE
+# clk=0 rst=0 data_in=  0 addr=0 wr=1 data_out=  0 time=                  25
+# name=FROM DRI
+# clk=0 rst=0 data_in=  0 addr=0 wr=1 data_out=  0 time=                  30
+# data_in=  0
+# name=FROM GEN
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  0 time=                  35
+# name=FROM COVERAGE
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  0 time=                  35
+# name=BFM
+# clk=1 rst=1 data_in=  0 addr=0 wr=0 data_out=  0 time=                  35
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  0 addr=0 wr=0 data_out=  0 time=                  40
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  0 time=                  45
+# name=FROM GEN
+# clk=1 rst=1 data_in=  1 addr=1 wr=1 data_out=  0 time=                  45
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  1 addr=1 wr=1 data_out=  0 time=                  45
+# name=BFM
+# clk=1 rst=1 data_in=  1 addr=1 wr=1 data_out=  0 time=                  45
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  1 addr=1 wr=1 data_out=  0 time=                  50
+# data_in=  1
+# name=FROM GEN
+# clk=1 rst=1 data_in=  1 addr=1 wr=0 data_out=  0 time=                  55
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  1 addr=1 wr=0 data_out=  0 time=                  55
+# name=BFM
+# clk=1 rst=1 data_in=  1 addr=1 wr=0 data_out=  1 time=                  55
+# name=FROM DRI
+# clk=1 rst=1 data_in=  1 addr=1 wr=0 data_out=  1 time=                  60
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  1 time=                  65
+# name=FROM GEN
+# clk=1 rst=1 data_in=  2 addr=2 wr=1 data_out=  1 time=                  65
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  2 addr=2 wr=1 data_out=  1 time=                  65
+# name=BFM
+# clk=1 rst=1 data_in=  2 addr=2 wr=1 data_out=  1 time=                  65
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  2 addr=2 wr=1 data_out=  1 time=                  70
+# data_in=  2
+# name=FROM GEN
+# clk=1 rst=1 data_in=  2 addr=2 wr=0 data_out=  1 time=                  75
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  2 addr=2 wr=0 data_out=  1 time=                  75
+# name=BFM
+# clk=1 rst=1 data_in=  2 addr=2 wr=0 data_out=  2 time=                  75
+# name=FROM DRI
+# clk=1 rst=1 data_in=  2 addr=2 wr=0 data_out=  2 time=                  80
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  2 time=                  85
+# name=FROM GEN
+# clk=1 rst=1 data_in=  3 addr=3 wr=1 data_out=  2 time=                  85
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  3 addr=3 wr=1 data_out=  2 time=                  85
+# name=BFM
+# clk=1 rst=1 data_in=  3 addr=3 wr=1 data_out=  2 time=                  85
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  3 addr=3 wr=1 data_out=  2 time=                  90
+# data_in=  3
+# name=FROM GEN
+# clk=1 rst=1 data_in=  3 addr=3 wr=0 data_out=  2 time=                  95
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  3 addr=3 wr=0 data_out=  2 time=                  95
+# name=BFM
+# clk=1 rst=1 data_in=  3 addr=3 wr=0 data_out=  3 time=                  95
+# name=FROM DRI
+# clk=1 rst=1 data_in=  3 addr=3 wr=0 data_out=  3 time=                 100
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  3 time=                 105
+# name=FROM GEN
+# clk=1 rst=1 data_in=  4 addr=4 wr=1 data_out=  3 time=                 105
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  4 addr=4 wr=1 data_out=  3 time=                 105
+# name=BFM
+# clk=1 rst=1 data_in=  4 addr=4 wr=1 data_out=  3 time=                 105
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  4 addr=4 wr=1 data_out=  3 time=                 110
+# data_in=  4
+# name=FROM GEN
+# clk=1 rst=1 data_in=  4 addr=4 wr=0 data_out=  3 time=                 115
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  4 addr=4 wr=0 data_out=  3 time=                 115
+# name=BFM
+# clk=1 rst=1 data_in=  4 addr=4 wr=0 data_out=  4 time=                 115
+# name=FROM DRI
+# clk=1 rst=1 data_in=  4 addr=4 wr=0 data_out=  4 time=                 120
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  4 time=                 125
+# name=FROM GEN
+# clk=1 rst=1 data_in=  5 addr=5 wr=1 data_out=  4 time=                 125
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  5 addr=5 wr=1 data_out=  4 time=                 125
+# name=BFM
+# clk=1 rst=1 data_in=  5 addr=5 wr=1 data_out=  4 time=                 125
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  5 addr=5 wr=1 data_out=  4 time=                 130
+# data_in=  5
+# name=FROM GEN
+# clk=1 rst=1 data_in=  5 addr=5 wr=0 data_out=  4 time=                 135
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  5 addr=5 wr=0 data_out=  4 time=                 135
+# name=BFM
+# clk=1 rst=1 data_in=  5 addr=5 wr=0 data_out=  5 time=                 135
+# name=FROM DRI
+# clk=1 rst=1 data_in=  5 addr=5 wr=0 data_out=  5 time=                 140
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  5 time=                 145
+# name=FROM GEN
+# clk=1 rst=1 data_in=  6 addr=6 wr=1 data_out=  5 time=                 145
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  6 addr=6 wr=1 data_out=  5 time=                 145
+# name=BFM
+# clk=1 rst=1 data_in=  6 addr=6 wr=1 data_out=  5 time=                 145
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  6 addr=6 wr=1 data_out=  5 time=                 150
+# data_in=  6
+# name=FROM GEN
+# clk=1 rst=1 data_in=  6 addr=6 wr=0 data_out=  5 time=                 155
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  6 addr=6 wr=0 data_out=  5 time=                 155
+# name=BFM
+# clk=1 rst=1 data_in=  6 addr=6 wr=0 data_out=  6 time=                 155
+# name=FROM DRI
+# clk=1 rst=1 data_in=  6 addr=6 wr=0 data_out=  6 time=                 160
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  6 time=                 165
+# name=FROM GEN
+# clk=1 rst=1 data_in=  7 addr=7 wr=1 data_out=  6 time=                 165
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  7 addr=7 wr=1 data_out=  6 time=                 165
+# name=BFM
+# clk=1 rst=1 data_in=  7 addr=7 wr=1 data_out=  6 time=                 165
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  7 addr=7 wr=1 data_out=  6 time=                 170
+# data_in=  7
+# name=FROM GEN
+# clk=1 rst=1 data_in=  7 addr=7 wr=0 data_out=  6 time=                 175
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  7 addr=7 wr=0 data_out=  6 time=                 175
+# name=BFM
+# clk=1 rst=1 data_in=  7 addr=7 wr=0 data_out=  7 time=                 175
+# name=FROM DRI
+# clk=1 rst=1 data_in=  7 addr=7 wr=0 data_out=  7 time=                 180
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  7 time=                 185
+# ** Note: implicit $finish from program    : packet.sv(23)
+#    Time: 185 ns  Iteration: 2  Instance: /top/TB
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:44:05 on Jan 05,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module dut
+# -- Compiling interface inter
+# -- Compiling package top_sv_unit
+# ** Warning: generator.sv(64): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program tb
+# ** Warning: tb.sv(18): (vlog-2880) Task "status" is being called in final procedure.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:44:05 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# total=          8 pass=          8 fail=          0
+# End time: 15:44:07 on Jan 05,2026, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 6
+# vsim top 
+# Start time: 15:44:07 on Jan 05,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: BASAVARAJ  Hostname: DESKTOP-UFCQR41  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftgcvfgm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgcvfgm
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  0 time=                  25
+# name=FROM GEN
+# clk=0 rst=0 data_in=  0 addr=0 wr=1 data_out=  0 time=                  25
+# name=FROM COVERAGE
+# clk=0 rst=0 data_in=  0 addr=0 wr=1 data_out=  0 time=                  25
+# name=FROM DRI
+# clk=0 rst=0 data_in=  0 addr=0 wr=1 data_out=  0 time=                  30
+# data_in=  0
+# name=FROM GEN
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  0 time=                  35
+# name=FROM COVERAGE
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  0 time=                  35
+# name=BFM
+# clk=1 rst=1 data_in=  0 addr=0 wr=0 data_out=  0 time=                  35
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  0 addr=0 wr=0 data_out=  0 time=                  40
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  0 time=                  45
+# name=FROM GEN
+# clk=1 rst=1 data_in=  1 addr=1 wr=1 data_out=  0 time=                  45
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  1 addr=1 wr=1 data_out=  0 time=                  45
+# name=BFM
+# clk=1 rst=1 data_in=  1 addr=1 wr=1 data_out=  0 time=                  45
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  1 addr=1 wr=1 data_out=  0 time=                  50
+# data_in=  1
+# name=FROM GEN
+# clk=1 rst=1 data_in=  1 addr=1 wr=0 data_out=  0 time=                  55
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  1 addr=1 wr=0 data_out=  0 time=                  55
+# name=BFM
+# clk=1 rst=1 data_in=  1 addr=1 wr=0 data_out=  1 time=                  55
+# name=FROM DRI
+# clk=1 rst=1 data_in=  1 addr=1 wr=0 data_out=  1 time=                  60
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  1 time=                  65
+# name=FROM GEN
+# clk=1 rst=1 data_in=  2 addr=2 wr=1 data_out=  1 time=                  65
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  2 addr=2 wr=1 data_out=  1 time=                  65
+# name=BFM
+# clk=1 rst=1 data_in=  2 addr=2 wr=1 data_out=  1 time=                  65
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  2 addr=2 wr=1 data_out=  1 time=                  70
+# data_in=  2
+# name=FROM GEN
+# clk=1 rst=1 data_in=  2 addr=2 wr=0 data_out=  1 time=                  75
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  2 addr=2 wr=0 data_out=  1 time=                  75
+# name=BFM
+# clk=1 rst=1 data_in=  2 addr=2 wr=0 data_out=  2 time=                  75
+# name=FROM DRI
+# clk=1 rst=1 data_in=  2 addr=2 wr=0 data_out=  2 time=                  80
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  2 time=                  85
+# name=FROM GEN
+# clk=1 rst=1 data_in=  3 addr=3 wr=1 data_out=  2 time=                  85
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  3 addr=3 wr=1 data_out=  2 time=                  85
+# name=BFM
+# clk=1 rst=1 data_in=  3 addr=3 wr=1 data_out=  2 time=                  85
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  3 addr=3 wr=1 data_out=  2 time=                  90
+# data_in=  3
+# name=FROM GEN
+# clk=1 rst=1 data_in=  3 addr=3 wr=0 data_out=  2 time=                  95
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  3 addr=3 wr=0 data_out=  2 time=                  95
+# name=BFM
+# clk=1 rst=1 data_in=  3 addr=3 wr=0 data_out=  3 time=                  95
+# name=FROM DRI
+# clk=1 rst=1 data_in=  3 addr=3 wr=0 data_out=  3 time=                 100
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  3 time=                 105
+# name=FROM GEN
+# clk=1 rst=1 data_in=  4 addr=4 wr=1 data_out=  3 time=                 105
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  4 addr=4 wr=1 data_out=  3 time=                 105
+# name=BFM
+# clk=1 rst=1 data_in=  4 addr=4 wr=1 data_out=  3 time=                 105
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  4 addr=4 wr=1 data_out=  3 time=                 110
+# data_in=  4
+# name=FROM GEN
+# clk=1 rst=1 data_in=  4 addr=4 wr=0 data_out=  3 time=                 115
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  4 addr=4 wr=0 data_out=  3 time=                 115
+# name=BFM
+# clk=1 rst=1 data_in=  4 addr=4 wr=0 data_out=  4 time=                 115
+# name=FROM DRI
+# clk=1 rst=1 data_in=  4 addr=4 wr=0 data_out=  4 time=                 120
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  4 time=                 125
+# name=FROM GEN
+# clk=1 rst=1 data_in=  5 addr=5 wr=1 data_out=  4 time=                 125
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  5 addr=5 wr=1 data_out=  4 time=                 125
+# name=BFM
+# clk=1 rst=1 data_in=  5 addr=5 wr=1 data_out=  4 time=                 125
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  5 addr=5 wr=1 data_out=  4 time=                 130
+# data_in=  5
+# name=FROM GEN
+# clk=1 rst=1 data_in=  5 addr=5 wr=0 data_out=  4 time=                 135
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  5 addr=5 wr=0 data_out=  4 time=                 135
+# name=BFM
+# clk=1 rst=1 data_in=  5 addr=5 wr=0 data_out=  5 time=                 135
+# name=FROM DRI
+# clk=1 rst=1 data_in=  5 addr=5 wr=0 data_out=  5 time=                 140
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  5 time=                 145
+# name=FROM GEN
+# clk=1 rst=1 data_in=  6 addr=6 wr=1 data_out=  5 time=                 145
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  6 addr=6 wr=1 data_out=  5 time=                 145
+# name=BFM
+# clk=1 rst=1 data_in=  6 addr=6 wr=1 data_out=  5 time=                 145
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  6 addr=6 wr=1 data_out=  5 time=                 150
+# data_in=  6
+# name=FROM GEN
+# clk=1 rst=1 data_in=  6 addr=6 wr=0 data_out=  5 time=                 155
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  6 addr=6 wr=0 data_out=  5 time=                 155
+# name=BFM
+# clk=1 rst=1 data_in=  6 addr=6 wr=0 data_out=  6 time=                 155
+# name=FROM DRI
+# clk=1 rst=1 data_in=  6 addr=6 wr=0 data_out=  6 time=                 160
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  6 time=                 165
+# name=FROM GEN
+# clk=1 rst=1 data_in=  7 addr=7 wr=1 data_out=  6 time=                 165
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  7 addr=7 wr=1 data_out=  6 time=                 165
+# name=BFM
+# clk=1 rst=1 data_in=  7 addr=7 wr=1 data_out=  6 time=                 165
+# ***********TEST PASSED***************
+# name=FROM DRI
+# clk=1 rst=1 data_in=  7 addr=7 wr=1 data_out=  6 time=                 170
+# data_in=  7
+# name=FROM GEN
+# clk=1 rst=1 data_in=  7 addr=7 wr=0 data_out=  6 time=                 175
+# name=FROM COVERAGE
+# clk=1 rst=1 data_in=  7 addr=7 wr=0 data_out=  6 time=                 175
+# name=BFM
+# clk=1 rst=1 data_in=  7 addr=7 wr=0 data_out=  7 time=                 175
+# name=FROM DRI
+# clk=1 rst=1 data_in=  7 addr=7 wr=0 data_out=  7 time=                 180
+# name=MONITOR
+# clk=0 rst=0 data_in=  0 addr=0 wr=0 data_out=  7 time=                 185
+# ** Note: implicit $finish from program    : packet.sv(23)
+#    Time: 185 ns  Iteration: 2  Instance: /top/TB
+# 1
+# Simulation stop requested.
